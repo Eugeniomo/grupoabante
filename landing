@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema de control de documentos para certificación ISO. Plataforma web con usuarios ilimitados, 99.96% disponibilidad, consultoría incluida. Solicita cotización.">
+    <title>Control Documental ISO | Plataforma con Usuarios Ilimitados</title>
+    
+    <!-- Google Ads Conversion Tracking -->
+    <!-- Añadir aquí tu código de Google Ads cuando esté configurado -->
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #0066cc;
+            --secondary: #ff6600;
+            --success: #28a745;
+            --dark: #1a1a1a;
+            --gray: #666;
+            --light: #f8f9fa;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Hero Section - Above the fold optimizado para conversión */
+        .hero {
+            background: linear-gradient(135deg, #0066cc 0%, #004999 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 44px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .hero-subtitle {
+            font-size: 22px;
+            margin-bottom: 15px;
+            opacity: 0.95;
+        }
+        
+        .hero-benefit {
+            font-size: 18px;
+            margin-bottom: 35px;
+            font-weight: 500;
+            background: rgba(255,255,255,0.15);
+            padding: 15px 25px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        
+        .cta-primary {
+            background: var(--secondary);
+            color: white;
+            padding: 20px 50px;
+            font-size: 20px;
+            font-weight: 700;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s;
+            box-shadow: 0 5px 20px rgba(255, 102, 0, 0.4);
+        }
+        
+        .cta-primary:hover {
+            background: #ff7700;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(255, 102, 0, 0.5);
+        }
+        
+        /* Trust Bar */
+        .trust-bar {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .trust-items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+            color: var(--gray);
+        }
+        
+        .trust-icon {
+            font-size: 24px;
+            color: var(--success);
+        }
+        
+        /* Problem-Solution Section */
+        .problem-solution {
+            padding: 80px 20px;
+            background: var(--light);
+        }
+        
+        .two-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin-top: 40px;
+        }
+        
+        .problem-box, .solution-box {
+            padding: 40px;
+            border-radius: 10px;
+        }
+        
+        .problem-box {
+            background: white;
+            border-left: 5px solid #dc3545;
+        }
+        
+        .solution-box {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+        }
+        
+        .problem-box h3, .solution-box h3 {
+            font-size: 28px;
+            margin-bottom: 25px;
+        }
+        
+        .problem-box ul, .solution-box ul {
+            list-style: none;
+        }
+        
+        .problem-box li {
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            color: var(--gray);
+        }
+        
+        .problem-box li:before {
+            content: "✗";
+            position: absolute;
+            left: 0;
+            color: #dc3545;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .solution-box li {
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .solution-box li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        /* Features Section */
+        .features {
+            padding: 80px 20px;
+            background: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 50px;
+            color: var(--dark);
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .feature-card {
+            background: var(--light);
+            padding: 35px;
+            border-radius: 10px;
+            transition: all 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .feature-number {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .feature-card h4 {
+            font-size: 20px;
+            margin-bottom: 12px;
+            color: var(--dark);
+        }
+        
+        .feature-card p {
+            color: var(--gray);
+            line-height: 1.7;
+        }
+        
+        /* Consulting Included Section */
+        .consulting {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+        
+        .consulting-content {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .consulting-list {
+            list-style: none;
+            margin-top: 30px;
+        }
+        
+        .consulting-list li {
+            padding: 15px 0;
+            padding-left: 40px;
+            position: relative;
+            font-size: 18px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .consulting-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .consulting-list li:before {
+            content: "🎯";
+            position: absolute;
+            left: 0;
+            font-size: 24px;
+        }
+        
+        /* CTA Form Section */
+        .cta-form-section {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #0066cc 0%, #004999 100%);
+            color: white;
+        }
+        
+        .form-container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: white;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+        }
+        
+        .form-container h3 {
+            color: var(--dark);
+            font-size: 28px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark);
+            font-size: 15px;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+        }
+        
+        .btn-submit {
+            width: 100%;
+            padding: 18px;
+            background: var(--secondary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-submit:hover {
+            background: #ff7700;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(255, 102, 0, 0.4);
+        }
+        
+        .form-privacy {
+            margin-top: 20px;
+            font-size: 12px;
+            color: var(--gray);
+            text-align: center;
+        }
+        
+        /* Trust Section */
+        .trust-section {
+            padding: 60px 20px;
+            background: white;
+            text-align: center;
+        }
+        
+        .coverage-text {
+            font-size: 16px;
+            color: var(--gray);
+            margin-top: 30px;
+            font-weight: 500;
+        }
+        
+        /* WhatsApp Float */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: white;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            box-shadow: 0 5px 25px rgba(37, 211, 102, 0.5);
+            z-index: 999;
+            text-decoration: none;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { box-shadow: 0 5px 25px rgba(37, 211, 102, 0.5); }
+            50% { box-shadow: 0 5px 35px rgba(37, 211, 102, 0.7); }
+            100% { box-shadow: 0 5px 25px rgba(37, 211, 102, 0.5); }
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+            
+            .hero-subtitle {
+                font-size: 18px;
+            }
+            
+            .two-columns {
+                grid-template-columns: 1fr;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .form-container,
+            .consulting-content {
+                padding: 30px 20px;
+            }
+            
+            .cta-primary {
+                padding: 18px 40px;
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Sistema de Control de Documentos Certificación ISO</h1>
+            <p class="hero-subtitle">Plataforma web profesional con usuarios ilimitados + Consultoría mensual estructural incluida</p>
+            <div class="hero-benefit">
+                ✓ Sin inversión en software &nbsp;|&nbsp; ✓ Sin límite de usuarios &nbsp;|&nbsp; ✓ 99.96% disponibilidad
+            </div>
+            <a href="#formulario" class="cta-primary">SOLICITAR COTIZACIÓN PERSONALIZADA</a>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <div class="trust-bar">
+        <div class="trust-items">
+            <div class="trust-item">
+                <span class="trust-icon">✓</span>
+                <span>Usuarios Ilimitados</span>
+            </div>
+            <div class="trust-item">
+                <span class="trust-icon">✓</span>
+                <span>Consultoría Incluida</span>
+            </div>
+            <div class="trust-item">
+                <span class="trust-icon">✓</span>
+                <span>99.96% Uptime</span>
+            </div>
+            <div class="trust-item">
+                <span class="trust-icon">✓</span>
+                <span>100GB Cloud</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Problem-Solution Section -->
+    <section class="problem-solution">
+        <div class="container">
+            <h2 class="section-title">¿Tu empresa enfrenta estos desafíos?</h2>
+            <div class="two-columns">
+                <div class="problem-box">
+                    <h3>Problemas Comunes</h3>
+                    <ul>
+                        <li>Control documental manual o en Excel</li>
+                        <li>Dificultad para mantener versiones vigentes</li>
+                        <li>Auditorías ISO con no conformidades documentales</li>
+                        <li>Sistemas caros con licencias por usuario</li>
+                        <li>Falta de trazabilidad en cambios</li>
+                        <li>Documentos desactualizados en circulación</li>
+                    </ul>
+                </div>
+                <div class="solution-box">
+                    <h3>Nuestra Solución</h3>
+                    <ul>
+                        <li>Sistema online basado en Smartsheet</li>
+                        <li>Gestión automatizada de versiones</li>
+                        <li>Control total para auditorías ISO</li>
+                        <li>Usuarios ilimitados sin costo extra</li>
+                        <li>Historial completo de modificaciones</li>
+                        <li>Distribución automática de actualizaciones</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Características Técnicas de la Plataforma</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-number">1</div>
+                    <h4>Cuadro de Mando Integral</h4>
+                    <p>Visualiza KPIs operacionales en tiempo real. Dashboard personalizable con indicadores clave de tu sistema de gestión ISO.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">2</div>
+                    <h4>Acceso Multiplataforma</h4>
+                    <p>Accede desde web, móvil o tablet. Compatible con Windows, Mac, iOS y Android. Trabajo remoto sin limitaciones.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">3</div>
+                    <h4>99.96% Uptime Garantizado</h4>
+                    <p>Disponibilidad garantizada 24/7/365. Infraestructura cloud robusta con respaldos automáticos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">4</div>
+                    <h4>100GB Almacenamiento Cloud</h4>
+                    <p>Espacio incluido para todos tus documentos ISO. Almacenamiento seguro con encriptación de datos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">5</div>
+                    <h4>Usuarios Ilimitados</h4>
+                    <p>Todo tu equipo puede acceder sin costo adicional. Sin restricciones por departamento o ubicación.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">6</div>
+                    <h4>Soporte Técnico Incluido</h4>
+                    <p>Atención vía tickets y correo electrónico. Tiempo de respuesta garantizado en horario laboral.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consulting Section -->
+    <section class="consulting">
+        <div class="container">
+            <h2 class="section-title">Incluye Consultoría Estructural Mensual</h2>
+            <div class="consulting-content">
+                <p style="font-size: 18px; color: var(--gray); margin-bottom: 30px;">
+                    No solo es software. Es una solución integral con acompañamiento profesional continuo.
+                </p>
+                <ul class="consulting-list">
+                    <li>Asesoría estructural mensual para mejora continua</li>
+                    <li>Capacitación completa en uso de plataforma</li>
+                    <li>Soporte técnico vía tickets y correo electrónico</li>
+                    <li>Acompañamiento en preparación de auditorías ISO</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Form Section -->
+    <section class="cta-form-section" id="formulario">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Solicita tu Cotización sin Compromiso</h2>
+            <p style="text-align: center; font-size: 20px; margin-bottom: 20px;">
+                Completa el formulario y un asesor se contactará contigo en menos de 24 horas
+            </p>
+            
+            <div class="form-container">
+                <h3>Solicitar Información</h3>
+                <form action="#" method="POST" id="contactForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo *</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Ej: Juan Pérez">
+                    </div>
+                    <div class="form-group">
+                        <label for="whatsapp">WhatsApp *</label>
+                        <input type="tel" id="whatsapp" name="whatsapp" required placeholder="Ej: +56912345678">
+                    </div>
+                    <div class="form-group">
+                        <label for="empresa">Empresa *</label>
+                        <input type="text" id="empresa" name="empresa" required placeholder="Ej: Mi Empresa S.A.">
+                    </div>
+                    <button type="submit" class="btn-submit">SOLICITAR COTIZACIÓN AHORA</button>
+                    <p class="form-privacy">
+                        Al enviar este formulario aceptas nuestra política de privacidad. 
+                        No compartimos tus datos con terceros.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <h3 style="font-size: 24px; margin-bottom: 30px;">Empresas que confían en nosotros</h3>
+            <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; opacity: 0.7;">
+                <img src="https://www.grupoabante.com/wp-content/uploads/2023/07/CLIENTES-2.png" alt="Cliente" style="max-width: 120px; height: auto;">
+                <img src="https://www.grupoabante.com/wp-content/uploads/2023/07/CLIENTES-3.png" alt="Cliente" style="max-width: 120px; height: auto;">
+                <img src="https://www.grupoabante.com/wp-content/uploads/2023/07/Captura-de-pantalla-2023-07-21-a-las-16.38.46.png" alt="Cliente" style="max-width: 120px; height: auto;">
+            </div>
+            <p class="coverage-text">
+                📍 Presentes en todo Chile: Valle del Aconcagua • Los Andes • San Felipe • Los Ríos • Los Lagos
+            </p>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://api.whatsapp.com/send?phone=56962711053&text=Hola,%20quiero%20información%20sobre%20control%20documental%20ISO" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        💬
+    </a>
+
+    <!-- Simple Analytics -->
+    <script>
+        // Tracking de envío de formulario
+        document.getElementById('contactForm')?.addEventListener('submit', function(e) {
+            // Aquí agregar código de conversión de Google Ads
+            console.log('Formulario enviado - Conversión registrada');
+        });
+    </script>
+</body>
+</html>
