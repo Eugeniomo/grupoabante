@@ -1,0 +1,637 @@
+Home renovada · HTML
+Copiar
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consultoría y certificación ISO en Chile. Implementación garantizada ISO 9001, 14001, 45001. Consultores acreditados con experiencia. Auditorías y capacitaciones.">
+    <title>Grupo Abante - Consultoría ISO y Certificación | Chile</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-color: #0066cc;
+            --secondary-color: #ff6600;
+            --dark: #1a1a1a;
+            --gray: #666;
+            --light-gray: #f5f5f5;
+            --white: #ffffff;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        .header {
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .header-top {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 10px 0;
+            font-size: 14px;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            max-width: 200px;
+            height: auto;
+        }
+        
+        .nav {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+        
+        .nav a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav a:hover {
+            color: var(--primary-color);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #0066cc 0%, #004999 100%);
+            color: var(--white);
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .hero p {
+            font-size: 22px;
+            margin-bottom: 40px;
+            opacity: 0.95;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 18px 45px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn-primary {
+            background: var(--secondary-color);
+            color: var(--white);
+        }
+        
+        .btn-primary:hover {
+            background: #ff7700;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 102, 0, 0.3);
+        }
+        
+        .btn-secondary {
+            background: var(--white);
+            color: var(--primary-color);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--light-gray);
+            transform: translateY(-2px);
+        }
+        
+        /* Value Proposition Section */
+        .value-prop {
+            padding: 80px 0;
+            background: var(--white);
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: var(--dark);
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            font-size: 18px;
+            color: var(--gray);
+            margin-bottom: 50px;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        
+        .benefit-card {
+            text-align: center;
+            padding: 30px;
+            background: var(--light-gray);
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .benefit-icon {
+            font-size: 48px;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        
+        .benefit-card h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: var(--dark);
+        }
+        
+        .benefit-card p {
+            color: var(--gray);
+            font-size: 15px;
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 80px 0;
+            background: var(--light-gray);
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .service-card {
+            background: var(--white);
+            padding: 40px 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+        }
+        
+        .service-card h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: var(--primary-color);
+        }
+        
+        .service-card ul {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        .service-card li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: var(--gray);
+        }
+        
+        .service-card li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+        
+        .service-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .service-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* Clients Section */
+        .clients {
+            padding: 60px 0;
+            background: var(--white);
+            text-align: center;
+        }
+        
+        .clients h2 {
+            font-size: 28px;
+            margin-bottom: 40px;
+        }
+        
+        .clients-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            opacity: 0.7;
+        }
+        
+        .clients-logos img {
+            max-width: 150px;
+            height: auto;
+            filter: grayscale(100%);
+            transition: all 0.3s;
+        }
+        
+        .clients-logos img:hover {
+            filter: grayscale(0%);
+            opacity: 1;
+        }
+        
+        /* Contact Form Section */
+        .contact-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+        }
+        
+        .contact-form {
+            max-width: 600px;
+            margin: 40px auto;
+            background: var(--white);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 15px;
+            transition: border-color 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--dark);
+            color: var(--white);
+            padding: 40px 0 20px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        
+        .footer h4 {
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+        }
+        
+        .footer p, .footer a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            line-height: 1.8;
+        }
+        
+        .footer a:hover {
+            color: var(--white);
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 20px;
+            text-align: center;
+            color: rgba(255,255,255,0.6);
+        }
+        
+        /* WhatsApp Float Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: var(--white);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
+            z-index: 999;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+            
+            .hero p {
+                font-size: 18px;
+            }
+            
+            .nav {
+                display: none;
+            }
+            
+            .section-title {
+                font-size: 28px;
+            }
+            
+            .benefits-grid,
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                Presentes en Valle del Aconcagua - Los Andes - San Felipe - Región de Los Ríos y Los Lagos | 
+                <a href="mailto:info@grupoabante.com" style="color: white; text-decoration: none;">info@grupoabante.com</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-content">
+                <img src="https://www.grupoabante.com/wp-content/uploads/2020/03/GRUPO-ABANTE-LOGO-NUEVO.png" alt="Grupo Abante Logo" class="logo">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <h1>Consultoría y Certificación ISO en Chile</h1>
+            <p>Implementación garantizada de normas ISO 9001, 14001, 45001. Consultores acreditados con más de 15 años de experiencia.</p>
+            <div class="cta-buttons">
+                <a href="#contacto" class="btn btn-primary">Solicitar Asesoría Gratuita</a>
+                <a href="https://api.whatsapp.com/send?phone=56962711053&text=Hola,%20necesito%20asesoría%20ISO" class="btn btn-secondary" target="_blank">Hablar con Consultor</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition -->
+    <section class="value-prop">
+        <div class="container">
+            <h2 class="section-title">¿Por qué elegir Abante Consultores?</h2>
+            <p class="section-subtitle">Más de 15 años ayudando a empresas chilenas a certificarse y mantener sus sistemas de gestión</p>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">✓</div>
+                    <h3>Garantía de Certificación</h3>
+                    <p>Nos comprometemos a que obtengas tu certificación ISO en el primer intento.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">👨‍💼</div>
+                    <h3>Consultores Acreditados</h3>
+                    <p>Profesionales con experiencia comprobada en múltiples industrias.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>Adaptabilidad Normativa</h3>
+                    <p>Adaptamos la norma a tu empresa, no al revés. Metodología práctica y moderna.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📊</div>
+                    <h3>Presencia Nacional</h3>
+                    <p>Cobertura en todo Chile con oficinas en múltiples regiones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios de Consultoría</h2>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <h3>Implementación Normas ISO</h3>
+                    <p>Certificación garantizada con consultores especializados</p>
+                    <ul>
+                        <li>ISO 9001:2015 Gestión de Calidad</li>
+                        <li>ISO 14001:2015 Gestión Ambiental</li>
+                        <li>ISO 45001:2018 Seguridad y Salud</li>
+                        <li>ISO 37001 Antisoborno</li>
+                        <li>NCh 2728, NCh 3262</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <h3>Auditorías Profesionales</h3>
+                    <p>Auditorías internas y diagnósticos especializados</p>
+                    <ul>
+                        <li>Auditorías internas ISO</li>
+                        <li>Auditorías legales y financieras</li>
+                        <li>Auditorías tributarias y contables</li>
+                        <li>Preparación para certificación</li>
+                        <li>Informes detallados de hallazgos</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <h3>Capacitaciones ISO</h3>
+                    <p>Formación presencial, virtual y e-learning</p>
+                    <ul>
+                        <li>Auditor Interno ISO</li>
+                        <li>Auditor Líder certificado</li>
+                        <li>Introducción a normas ISO</li>
+                        <li>Taller de No Conformidades</li>
+                        <li>Formación in-company</li>
+                    </ul>
+                </div>
+
+                <!-- Service 4 - Control Documental -->
+                <div class="service-card">
+                    <h3>Control Documental Online</h3>
+                    <p>Plataforma tecnológica para gestión ISO</p>
+                    <ul>
+                        <li>Usuarios ilimitados sin costo extra</li>
+                        <li>Basado en Smartsheet</li>
+                        <li>99.96% disponibilidad web</li>
+                        <li>Consultoría mensual incluida</li>
+                        <li>100GB almacenamiento cloud</li>
+                    </ul>
+                    <a href="/control-documental-iso" class="service-link">Conocer plataforma →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="clients">
+        <div class="container">
+            <h2>Empresas que confían en nosotros</h2>
+            <div class="clients-logos">
+                <img src="https://www.grupoabante.com/wp-content/uploads/2023/07/CLIENTES-2.png" alt="Cliente 1">
+                <img src="https://www.grupoabante.com/wp-content/uploads/2023/07/CLIENTES-3.png" alt="Cliente 2">
+                <img src="https://www.grupoabante.com/wp-content/uploads/2023/07/Captura-de-pantalla-2023-07-21-a-las-16.38.46.png" alt="Cliente 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Solicita tu Asesoría Gratuita</h2>
+            <p style="text-align: center; font-size: 18px; color: #666; margin-bottom: 20px;">
+                Un consultor se contactará contigo para evaluar las necesidades de tu empresa
+            </p>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo *</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="whatsapp">Teléfono/WhatsApp *</label>
+                    <input type="tel" id="whatsapp" name="whatsapp" required>
+                </div>
+                <div class="form-group">
+                    <label for="empresa">Empresa *</label>
+                    <input type="text" id="empresa" name="empresa" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">¿Qué norma ISO te interesa? (opcional)</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Ej: ISO 9001, ISO 14001..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Solicitud</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h4>Contacto</h4>
+                    <p>La Capitanía #80 Of 108<br>Las Condes, Santiago</p>
+                    <p>Email: <a href="mailto:info@grupoabante.com">info@grupoabante.com</a></p>
+                    <p>WhatsApp: <a href="https://api.whatsapp.com/send?phone=56962711053">+569 627 11 053</a></p>
+                </div>
+                <div>
+                    <h4>Horario</h4>
+                    <p>Lunes - Viernes<br>8:00 AM - 18:00 PM</p>
+                </div>
+                <div>
+                    <h4>Cobertura Nacional</h4>
+                    <p>Valle del Aconcagua<br>Los Andes - San Felipe<br>Región de Los Ríos<br>Región de Los Lagos</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Grupo Abante. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://api.whatsapp.com/send?phone=56962711053&text=Hola,%20necesito%20asesoría%20ISO" class="whatsapp-float" target="_blank">
+        💬
+    </a>
+</body>
+</html>
