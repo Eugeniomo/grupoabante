@@ -269,9 +269,11 @@
         }
 
         .features-grid {
-            display: grid;
-            grid-template-columns: repeat(8, 1fr);
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
             gap: 1.5rem;
+            max-width: 100%;
         }
 
         .feature-card {
@@ -281,6 +283,8 @@
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             transition: transform 0.3s, box-shadow 0.3s;
+            flex: 0 1 calc(12.5% - 1.5rem);
+            min-width: 140px;
         }
 
         .feature-card:hover {
@@ -360,9 +364,11 @@
         }
 
         .services-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
             gap: 2rem;
+            max-width: 100%;
         }
 
         .service-card {
@@ -371,6 +377,8 @@
             border-radius: 10px;
             box-shadow: 0 3px 10px rgba(0,0,0,0.1);
             transition: transform 0.3s, box-shadow 0.3s;
+            flex: 0 1 calc(25% - 2rem);
+            min-width: 250px;
         }
 
         .service-card:hover {
@@ -449,7 +457,7 @@
         .clients-track {
             display: flex;
             gap: 3rem;
-            animation: scroll 42s linear infinite;
+            animation: scroll 55s linear infinite;
             width: fit-content;
         }
 
@@ -665,12 +673,12 @@
         }
 
         @media (max-width: 968px) {
-            .services-grid {
-                grid-template-columns: repeat(2, 1fr);
+            .services-grid .service-card {
+                flex: 0 1 calc(50% - 2rem);
             }
 
-            .features-grid {
-                grid-template-columns: repeat(4, 1fr);
+            .features-grid .feature-card {
+                flex: 0 1 calc(25% - 1.5rem);
             }
         }
 
@@ -683,12 +691,12 @@
                 display: none;
             }
 
-            .services-grid {
-                grid-template-columns: 1fr;
+            .services-grid .service-card {
+                flex: 0 1 100%;
             }
 
-            .features-grid {
-                grid-template-columns: repeat(2, 1fr);
+            .features-grid .feature-card {
+                flex: 0 1 calc(50% - 1.5rem);
             }
 
             .footer-content {
@@ -716,6 +724,7 @@
             <img src="images/logoabante.png" alt="Grupo Abante" class="logo" style="height: 50px;">
             <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
+                <li><a href="landing.html">Control Documental</a></li>
                 <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
@@ -914,7 +923,7 @@
             <div class="footer-section">
                 <h3>Contacto</h3>
                 <ul>
-                    <li>📧 <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ed84838b82ad8a9f989d828c8f8c839988c38e8280">[email&#160;protected]</a></li>
+                    <li>📧 info@grupoabante.com</li>
                     <li>📱 +56 9 6271 1053</li>
                     <li>📍 La Capitanía 80, Of 108, Las Condes, Santiago, Chile</li>
                 </ul>
@@ -960,4 +969,3 @@
     </script>
 </body>
 </html>
-                    
