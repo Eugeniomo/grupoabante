@@ -150,21 +150,44 @@
         }
 
         .cta-button {
-            background: white;
-            color: #003087;
+            background: #FF6B00;
+            color: white;
             padding: 1rem 2.5rem;
             border: none;
-            border-radius: 50px;
+            border-radius: 5px;
             font-size: 1.1rem;
             font-weight: bold;
             cursor: pointer;
             transition: transform 0.3s, box-shadow 0.3s;
             animation: fadeInUp 0.8s ease-out 0.6s backwards;
+            text-decoration: none;
+            display: inline-block;
         }
 
         .cta-button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 20px rgba(255, 107, 0, 0.3);
+        }
+
+        .cta-button-secondary {
+            background: white;
+            color: #003087;
+            padding: 1rem 2.5rem;
+            border: 2px solid white;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            animation: fadeInUp 0.8s ease-out 0.6s backwards;
+            text-decoration: none;
+            display: inline-block;
+            margin-left: 1rem;
+        }
+
+        .cta-button-secondary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
         }
 
         /* Features Section */
@@ -183,13 +206,13 @@
 
         .features-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(8, 1fr);
+            gap: 1.5rem;
         }
 
         .feature-card {
             text-align: center;
-            padding: 2rem;
+            padding: 1.5rem;
             background: white;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -202,17 +225,17 @@
         }
 
         .feature-icon {
-            width: 80px;
-            height: 80px;
-            margin: 0 auto 1.5rem;
+            width: 70px;
+            height: 70px;
+            margin: 0 auto 1rem;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
         .feature-icon svg {
-            width: 60px;
-            height: 60px;
+            width: 50px;
+            height: 50px;
             stroke: #003087;
             transition: transform 0.3s;
         }
@@ -223,7 +246,12 @@
 
         .feature-card h3 {
             color: #003087;
-            margin-bottom: 1rem;
+            margin-bottom: 0.8rem;
+            font-size: 1rem;
+        }
+
+        .feature-card p {
+            font-size: 0.85rem;
         }
 
         /* Services Section */
@@ -266,6 +294,44 @@
         .service-card h3 {
             color: #003087;
             margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .service-card p {
+            color: #666;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .service-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .service-card ul li {
+            padding: 0.5rem 0;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .service-card ul li::before {
+            content: "✓ ";
+            color: #003087;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        .service-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #003087;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s;
+        }
+
+        .service-link:hover {
+            transform: translateX(5px);
         }
 
         /* Clients Section */
@@ -483,6 +549,10 @@
             .services-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
+
+            .features-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
         }
 
         @media (max-width: 768px) {
@@ -498,8 +568,17 @@
                 grid-template-columns: 1fr;
             }
 
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
             .footer-content {
                 grid-template-columns: 1fr;
+            }
+
+            .cta-button-secondary {
+                margin-left: 0;
+                margin-top: 1rem;
             }
         }
     </style>
@@ -527,13 +606,16 @@
     <!-- Hero Section con Video -->
     <section class="hero" id="inicio">
         <video class="hero-video" autoplay loop muted playsinline>
-            <source src="https://www.grupoabante.com/wp-content/uploads/images/video1.mp4" type="video/mp4">
+            <source src="https://www.grupoabante.com/wp-content/uploads/2020/03/video1.mp4" type="video/mp4">
         </video>
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1>Consultoría y Certificación ISO en Chile</h1>
             <p>Optimizamos procesos y certificamos tu empresa con estándares internacionales</p>
-            <button class="cta-button" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})">Solicita tu Asesoría Gratuita</button>
+            <div>
+                <a href="#contacto" class="cta-button">Solicitar Asesoría Gratuita</a>
+                <a href="https://wa.me/56962711053?text=Hola,%20quiero%20hablar%20con%20un%20consultor" class="cta-button-secondary" target="_blank">Hablar con Consultor</a>
+            </div>
         </div>
     </section>
 
@@ -577,6 +659,43 @@
                 <h3>Tecnología Avanzada</h3>
                 <p>Plataforma digital para gestión documental ISO</p>
             </div>
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h3>Garantía de Certificación</h3>
+                <p>Nos comprometemos a que obtengas tu certificación ISO en el primer intento</p>
+            </div>
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+                    </svg>
+                </div>
+                <h3>Consultores Acreditados</h3>
+                <p>Profesionales con experiencia comprobada en múltiples industrias</p>
+            </div>
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
+                    </svg>
+                </div>
+                <h3>Adaptabilidad Normativa</h3>
+                <p>Adaptamos la norma a tu empresa, no al revés. Metodología práctica y moderna</p>
+            </div>
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+                </div>
+                <h3>Presencia Nacional</h3>
+                <p>Cobertura en todo Chile con oficinas en múltiples regiones</p>
+            </div>
         </div>
     </section>
 
@@ -586,24 +705,49 @@
             <h2 class="animate-on-scroll">Servicios de Consultoría</h2>
             <div class="services-grid">
                 <div class="service-card animate-on-scroll">
-                    <h3>ISO 9001</h3>
-                    <p>Gestión de Calidad</p>
-                    <p>Mejora continua de procesos y satisfacción del cliente</p>
+                    <h3>Implementación Normas ISO</h3>
+                    <p>Certificación garantizada con consultores especializados</p>
+                    <ul>
+                        <li>ISO 9001:2015 Gestión de Calidad</li>
+                        <li>ISO 14001:2015 Gestión Ambiental</li>
+                        <li>ISO 45001:2018 Seguridad y Salud</li>
+                        <li>ISO 37001 Antisoborno</li>
+                        <li>NCh 2728, NCh 3262</li>
+                    </ul>
                 </div>
                 <div class="service-card animate-on-scroll">
-                    <h3>ISO 14001</h3>
-                    <p>Gestión Ambiental</p>
-                    <p>Compromiso con el medio ambiente y sostenibilidad</p>
+                    <h3>Auditorías Profesionales</h3>
+                    <p>Auditorías internas y diagnósticos especializados</p>
+                    <ul>
+                        <li>Auditorías internas ISO</li>
+                        <li>Auditorías legales y financieras</li>
+                        <li>Auditorías tributarias y contables</li>
+                        <li>Preparación para certificación</li>
+                        <li>Informes detallados de hallazgos</li>
+                    </ul>
                 </div>
                 <div class="service-card animate-on-scroll">
-                    <h3>ISO 45001</h3>
-                    <p>Seguridad y Salud</p>
-                    <p>Prevención de riesgos laborales y bienestar</p>
+                    <h3>Capacitaciones ISO</h3>
+                    <p>Formación presencial, virtual y e-learning</p>
+                    <ul>
+                        <li>Auditor Interno ISO</li>
+                        <li>Auditor Líder certificado</li>
+                        <li>Introducción a normas ISO</li>
+                        <li>Taller de No Conformidades</li>
+                        <li>Formación in-company</li>
+                    </ul>
                 </div>
                 <div class="service-card animate-on-scroll">
-                    <h3>ISO 27001</h3>
-                    <p>Seguridad de Información</p>
-                    <p>Protección de datos y activos digitales</p>
+                    <h3>Control Documental Online</h3>
+                    <p>Plataforma tecnológica para gestión ISO</p>
+                    <ul>
+                        <li>Usuarios ilimitados sin costo extra</li>
+                        <li>Basado en Smartsheet</li>
+                        <li>99.96% disponibilidad web</li>
+                        <li>Consultoría mensual incluida</li>
+                        <li>100GB almacenamiento cloud</li>
+                    </ul>
+                    <a href="https://app.smartsheet.com/b/publish?EQBCT=b848cd99309d4bd2897c81e75253a9c5" class="service-link" target="_blank">Conocer plataforma →</a>
                 </div>
             </div>
         </div>
@@ -614,48 +758,14 @@
         <h2 class="animate-on-scroll">Empresas que Confían en Nosotros</h2>
         <div class="clients-grid">
             <div class="client-logo animate-on-scroll">
-                <img src="https://www.grupoabante.com/wp-content/uploads/images/c1.jpg" alt="Cliente 1">
+                <img src="https://www.grupoabante.com/wp-content/uploads/2020/03/c1.jpg" alt="Cliente 1">
             </div>
             <div class="client-logo animate-on-scroll">
-                <img src="https://www.grupoabante.com/wp-content/uploads/images/c2.png" alt="Cliente 2">
+                <img src="https://www.grupoabante.com/wp-content/uploads/2020/03/c2.png" alt="Cliente 2">
             </div>
             <div class="client-logo animate-on-scroll">
-                <img src="https://www.grupoabante.com/wp-content/uploads/images/c3.png" alt="Cliente 3">
+                <img src="https://www.grupoabante.com/wp-content/uploads/2020/03/c3.png" alt="Cliente 3">
             </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contacto">
-        <div class="contact-container animate-on-scroll">
-            <h2>Solicita tu Asesoría Gratuita</h2>
-            <p>Completa el formulario y nos contactaremos contigo en menos de 24 horas</p>
-            <form class="contact-form" action="https://formsubmit.co/info@grupoabante.com" method="POST">
-                <input type="hidden" name="_subject" value="Nueva consulta desde Página Principal Abante">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://grupoabante.com/gracias">
-                <div class="form-group">
-                    <label>Nombre Completo</label>
-                    <input type="text" name="nombre" required>
-                </div>
-                <div class="form-group">
-                    <label>Email</label>
-                    <input type="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label>Teléfono</label>
-                    <input type="tel" name="telefono" required>
-                </div>
-                <div class="form-group">
-                    <label>Empresa</label>
-                    <input type="text" name="empresa" required>
-                </div>
-                <div class="form-group">
-                    <label>Mensaje</label>
-                    <textarea name="mensaje" required></textarea>
-                </div>
-                <button type="submit" class="cta-button">Enviar Consulta</button>
-            </form>
         </div>
     </section>
 
@@ -694,7 +804,7 @@
         </div>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
         // Animaciones al hacer scroll
         const observerOptions = {
             threshold: 0.1,
@@ -704,4 +814,14 @@
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    entry.target.class
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
