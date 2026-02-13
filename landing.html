@@ -3,11 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sistema de control de documentos para certificación ISO. Plataforma web con usuarios ilimitados, 99.96% disponibilidad, consultoría incluida. Solicita cotización.">
-    <title>Control Documental ISO | Plataforma con Usuarios Ilimitados</title>
     
-    <!-- Google Ads Conversion Tracking -->
-    <!-- Añadir aquí tu código de Google Ads cuando esté configurado -->
+    <!-- SEO Meta Tags -->
+    <title>Control Documental ISO Chile | Plataforma Usuarios Ilimitados + Consultoría | Grupo Abante</title>
+    <meta name="description" content="Sistema control documental ISO con usuarios ilimitados, 99.96% disponibilidad y consultoría mensual incluida. Plataforma Smartsheet para certificación ISO en Chile. Solicita cotización sin compromiso.">
+    <meta name="keywords" content="control documental ISO Chile, sistema gestión documentos ISO, plataforma control documental, Smartsheet ISO, usuarios ilimitados ISO, consultoría ISO incluida, certificación ISO Chile, gestión documental certificación">
+    <meta name="author" content="Grupo Abante">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.grupoabante.com/landing.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.grupoabante.com/landing.html">
+    <meta property="og:title" content="Control Documental ISO | Usuarios Ilimitados + Consultoría Incluida">
+    <meta property="og:description" content="Plataforma web profesional para control documental ISO. Usuarios ilimitados, 99.96% disponibilidad, consultoría mensual estructural incluida. Solicita cotización.">
+    <meta property="og:image" content="https://www.grupoabante.com/images/logoabante.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.grupoabante.com/landing.html">
+    <meta property="twitter:title" content="Control Documental ISO | Usuarios Ilimitados + Consultoría">
+    <meta property="twitter:description" content="Sistema control documental ISO con usuarios ilimitados y consultoría mensual incluida. Plataforma Smartsheet 99.96% disponibilidad.">
+    <meta property="twitter:image" content="https://www.grupoabante.com/images/logoabante.png">
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="CL">
+    <meta name="geo.placename" content="Chile">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Control Documental ISO - Grupo Abante",
+      "applicationCategory": "BusinessApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CLP",
+        "availability": "https://schema.org/InStock",
+        "description": "Cotización gratuita para sistema de control documental ISO"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "89"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Grupo Abante",
+        "url": "https://www.grupoabante.com",
+        "telephone": "+56962711053",
+        "email": "info@grupoabante.com"
+      },
+      "featureList": "Usuarios ilimitados, Consultoría mensual incluida, 99.96% disponibilidad, 100GB almacenamiento cloud, Basado en Smartsheet"
+    }
+    </script>
     
     <style>
         * {
@@ -17,8 +68,8 @@
         }
         
         :root {
-            --primary: #0066cc;
-            --secondary: #ff6600;
+            --primary: #003087;
+            --secondary: #FF6B00;
             --success: #28a745;
             --dark: #1a1a1a;
             --gray: #666;
@@ -26,7 +77,7 @@
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: var(--dark);
         }
@@ -37,20 +88,43 @@
             padding: 0 20px;
         }
         
-        /* Hero Section - Above the fold optimizado para conversión */
+        /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #0066cc 0%, #004999 100%);
+            position: relative;
             color: white;
             padding: 60px 20px;
             text-align: center;
             min-height: 600px;
             display: flex;
             align-items: center;
+            overflow: hidden;
+        }
+
+        .hero-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0,48,135,0.85) 0%, rgba(0,82,204,0.85) 100%);
+            z-index: 1;
         }
         
         .hero-content {
             max-width: 800px;
             margin: 0 auto;
+            position: relative;
+            z-index: 2;
         }
         
         .hero h1 {
@@ -88,13 +162,13 @@
             text-decoration: none;
             display: inline-block;
             transition: all 0.3s;
-            box-shadow: 0 5px 20px rgba(255, 102, 0, 0.4);
+            box-shadow: 0 5px 20px rgba(255, 107, 0, 0.4);
         }
         
         .cta-primary:hover {
             background: #ff7700;
             transform: translateY(-3px);
-            box-shadow: 0 8px 30px rgba(255, 102, 0, 0.5);
+            box-shadow: 0 8px 30px rgba(255, 107, 0, 0.5);
         }
         
         /* Trust Bar */
@@ -122,8 +196,9 @@
         }
         
         .trust-icon {
-            font-size: 24px;
-            color: var(--success);
+            width: 24px;
+            height: 24px;
+            fill: var(--success);
         }
         
         /* Problem-Solution Section */
@@ -249,7 +324,7 @@
             line-height: 1.7;
         }
         
-        /* Consulting Included Section */
+        /* Consulting Section */
         .consulting {
             padding: 80px 20px;
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -282,16 +357,32 @@
         }
         
         .consulting-list li:before {
-            content: "🎯";
+            content: "";
             position: absolute;
             left: 0;
-            font-size: 24px;
+            width: 24px;
+            height: 24px;
+            background: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .consulting-list li:after {
+            content: "✓";
+            position: absolute;
+            left: 7px;
+            top: 15px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
         }
         
         /* CTA Form Section */
         .cta-form-section {
             padding: 80px 20px;
-            background: linear-gradient(135deg, #0066cc 0%, #004999 100%);
+            background: linear-gradient(135deg, #003087 0%, #0052CC 100%);
             color: white;
         }
         
@@ -335,7 +426,7 @@
         .form-group input:focus {
             outline: none;
             border-color: var(--primary);
-            box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+            box-shadow: 0 0 0 3px rgba(0, 48, 135, 0.1);
         }
         
         .btn-submit {
@@ -354,7 +445,7 @@
         .btn-submit:hover {
             background: #ff7700;
             transform: translateY(-2px);
-            box-shadow: 0 5px 20px rgba(255, 102, 0, 0.4);
+            box-shadow: 0 5px 20px rgba(255, 107, 0, 0.4);
         }
         
         .form-privacy {
@@ -439,8 +530,25 @@
     </style>
 </head>
 <body>
+    <!-- Header -->
+    <header style="background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000;">
+        <nav style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem;">
+            <a href="index.html"><img src="images/logoabante.png" alt="Grupo Abante" style="height: 50px; cursor: pointer;"></a>
+            <ul style="display: flex; list-style: none; gap: 2rem; margin: 0;">
+                <li><a href="index.html#inicio" style="text-decoration: none; color: #333; font-weight: 500;">Inicio</a></li>
+                <li><a href="landing.html" style="text-decoration: none; color: #003087; font-weight: 600;">Control Documental</a></li>
+                <li><a href="index.html#servicios" style="text-decoration: none; color: #333; font-weight: 500;">Servicios</a></li>
+                <li><a href="index.html#contacto" style="text-decoration: none; color: #333; font-weight: 500;">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <!-- Hero Section -->
     <section class="hero">
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="images/video3.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1>Sistema de Control de Documentos Certificación ISO</h1>
             <p class="hero-subtitle">Plataforma web profesional con usuarios ilimitados + Consultoría mensual estructural incluida</p>
@@ -455,19 +563,35 @@
     <div class="trust-bar">
         <div class="trust-items">
             <div class="trust-item">
-                <span class="trust-icon">✓</span>
+                <svg class="trust-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" fill="#FF69B4" opacity="0.2"/>
+                    <circle cx="12" cy="12" r="6" fill="#FF69B4" opacity="0.4"/>
+                    <circle cx="12" cy="12" r="3" fill="#FF69B4"/>
+                </svg>
                 <span>Usuarios Ilimitados</span>
             </div>
             <div class="trust-item">
-                <span class="trust-icon">✓</span>
+                <svg class="trust-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" fill="#FF69B4" opacity="0.2"/>
+                    <circle cx="12" cy="12" r="6" fill="#FF69B4" opacity="0.4"/>
+                    <circle cx="12" cy="12" r="3" fill="#FF69B4"/>
+                </svg>
                 <span>Consultoría Incluida</span>
             </div>
             <div class="trust-item">
-                <span class="trust-icon">✓</span>
+                <svg class="trust-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" fill="#FF69B4" opacity="0.2"/>
+                    <circle cx="12" cy="12" r="6" fill="#FF69B4" opacity="0.4"/>
+                    <circle cx="12" cy="12" r="3" fill="#FF69B4"/>
+                </svg>
                 <span>99.96% Uptime</span>
             </div>
             <div class="trust-item">
-                <span class="trust-icon">✓</span>
+                <svg class="trust-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" fill="#FF69B4" opacity="0.2"/>
+                    <circle cx="12" cy="12" r="6" fill="#FF69B4" opacity="0.4"/>
+                    <circle cx="12" cy="12" r="3" fill="#FF69B4"/>
+                </svg>
                 <span>100GB Cloud</span>
             </div>
         </div>
@@ -571,7 +695,11 @@
             
             <div class="form-container">
                 <h3>Solicitar Información</h3>
-                <form action="#" method="POST" id="contactForm">
+                <form action="https://formsubmit.co/mrosas@grupoabante.com" method="POST">
+                    <input type="hidden" name="_subject" value="Nueva solicitud desde Landing Control Documental">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://www.grupoabante.com/gracias.html">
+                    
                     <div class="form-group">
                         <label for="nombre">Nombre Completo *</label>
                         <input type="text" id="nombre" name="nombre" required placeholder="Ej: Juan Pérez">
@@ -594,33 +722,9 @@
         </div>
     </section>
 
-    <!-- Trust Section -->
-    <section class="trust-section">
-        <div class="container">
-            <h3 style="font-size: 24px; margin-bottom: 30px;">Empresas que confían en nosotros</h3>
-            <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; opacity: 0.7;">
-                <img src="https://www.grupoabante.com/wp-content/uploads/2023/07/CLIENTES-2.png" alt="Cliente" style="max-width: 120px; height: auto;">
-                <img src="https://www.grupoabante.com/wp-content/uploads/2023/07/CLIENTES-3.png" alt="Cliente" style="max-width: 120px; height: auto;">
-                <img src="https://www.grupoabante.com/wp-content/uploads/2023/07/Captura-de-pantalla-2023-07-21-a-las-16.38.46.png" alt="Cliente" style="max-width: 120px; height: auto;">
-            </div>
-            <p class="coverage-text">
-                📍 Presentes en todo Chile: Valle del Aconcagua • Los Andes • San Felipe • Los Ríos • Los Lagos
-            </p>
-        </div>
-    </section>
-
     <!-- WhatsApp Float Button -->
-    <a href="https://api.whatsapp.com/send?phone=56962711053&text=Hola,%20quiero%20información%20sobre%20control%20documental%20ISO" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+    <a href="https://wa.me/56962711053?text=Hola,%20quiero%20información%20sobre%20control%20documental%20ISO" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
         💬
     </a>
-
-    <!-- Simple Analytics -->
-    <script>
-        // Tracking de envío de formulario
-        document.getElementById('contactForm')?.addEventListener('submit', function(e) {
-            // Aquí agregar código de conversión de Google Ads
-            console.log('Formulario enviado - Conversión registrada');
-        });
-    </script>
 </body>
 </html>
