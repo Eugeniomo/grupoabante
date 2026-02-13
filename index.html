@@ -74,9 +74,8 @@
         }
 
         .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #003087;
+            height: 50px;
+            cursor: pointer;
         }
 
         .nav-links {
@@ -256,13 +255,36 @@
 
         /* Services Section */
         .services {
-            background: #f8f9fa;
+            position: relative;
             padding: 5rem 2rem;
+            overflow: hidden;
+        }
+
+        .services-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+        }
+
+        .services-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(248, 249, 250, 0.92);
+            z-index: 1;
         }
 
         .services-container {
             max-width: 1400px;
             margin: 0 auto;
+            position: relative;
+            z-index: 2;
         }
 
         .services h2 {
@@ -337,29 +359,58 @@
         /* Clients Section */
         .clients {
             padding: 5rem 2rem;
-            max-width: 1200px;
+            max-width: 100%;
             margin: 0 auto;
             text-align: center;
+            overflow: hidden;
+            position: relative;
         }
 
         .clients h2 {
             font-size: 2.5rem;
             color: #003087;
             margin-bottom: 3rem;
+            position: relative;
+            z-index: 10;
         }
 
-        .clients-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            align-items: center;
+        .clients-carousel {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+
+        .clients-track {
+            display: flex;
+            gap: 4rem;
+            animation: scroll 30s linear infinite;
+            width: fit-content;
+        }
+
+        .clients-track:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
         }
 
         .client-logo {
+            flex-shrink: 0;
             padding: 1rem;
             filter: grayscale(100%);
             opacity: 0.6;
             transition: all 0.3s, transform 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 200px;
         }
 
         .client-logo:hover {
@@ -369,8 +420,11 @@
         }
 
         .client-logo img {
-            max-width: 150px;
+            max-width: 200px;
+            max-height: 150px;
             height: auto;
+            width: auto;
+            object-fit: contain;
         }
 
         /* Contact Section */
@@ -594,7 +648,7 @@
     <!-- Header -->
     <header>
         <nav>
-            <div class="logo">ABANTE CONSULTORES</div>
+            <img src="images/logoabante.png" alt="Grupo Abante" class="logo" style="height: 50px;">
             <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#servicios">Servicios</a></li>
@@ -701,6 +755,10 @@
 
     <!-- Services Section -->
     <section class="services" id="servicios">
+        <video class="services-video" autoplay loop muted playsinline>
+            <source src="images/video2.mp4" type="video/mp4">
+        </video>
+        <div class="services-overlay"></div>
         <div class="services-container">
             <h2 class="animate-on-scroll">Servicios de Consultoría</h2>
             <div class="services-grid">
@@ -756,15 +814,27 @@
     <!-- Clients Section -->
     <section class="clients">
         <h2 class="animate-on-scroll">Empresas que Confían en Nosotros</h2>
-        <div class="clients-grid">
-            <div class="client-logo animate-on-scroll">
-                <img src="images/c1.jpg" alt="Cliente 1">
-            </div>
-            <div class="client-logo animate-on-scroll">
-                <img src="images/c2.png" alt="Cliente 2">
-            </div>
-            <div class="client-logo animate-on-scroll">
-                <img src="images/c3.png" alt="Cliente 3">
+        <div class="clients-carousel">
+            <div class="clients-track">
+                <div class="client-logo">
+                    <img src="images/c1.jpg" alt="Cliente 1">
+                </div>
+                <div class="client-logo">
+                    <img src="images/c2.png" alt="Cliente 2">
+                </div>
+                <div class="client-logo">
+                    <img src="images/c3.png" alt="Cliente 3">
+                </div>
+                <!-- Duplicado para efecto infinito -->
+                <div class="client-logo">
+                    <img src="images/c1.jpg" alt="Cliente 1">
+                </div>
+                <div class="client-logo">
+                    <img src="images/c2.png" alt="Cliente 2">
+                </div>
+                <div class="client-logo">
+                    <img src="images/c3.png" alt="Cliente 3">
+                </div>
             </div>
         </div>
     </section>
@@ -779,7 +849,7 @@
             <div class="footer-section">
                 <h3>Contacto</h3>
                 <ul>
-                    <li>📧 info@grupoabante.com</li>
+                    <li>📧 <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9ff6f1f9f0dff8edeaeff0fefdfef1ebfab1fcf0f2">[email&#160;protected]</a></li>
                     <li>📱 +56 9 6271 1053</li>
                     <li>📍 La Capitanía 80, Of 108, Las Condes, Santiago, Chile</li>
                 </ul>
@@ -787,7 +857,7 @@
             <div class="footer-section">
                 <div class="footer-form">
                     <h3>Solicita tu Asesoría</h3>
-                    <form action="https://formsubmit.co/info@grupoabante.com" method="POST">
+                    <form action="https://formsubmit.co/mrosas@grupoabante.com" method="POST">
                         <input type="hidden" name="_subject" value="Consulta Footer - Landing Abante">
                         <input type="hidden" name="_captcha" value="false">
                         <input type="text" name="nombre" placeholder="Nombre" required>
