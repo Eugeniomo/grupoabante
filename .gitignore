@@ -1,0 +1,5 @@
+.claude/worktrees/
+docs/historial/
+__pycache__/
+.playwright-mcp/
+.DS_Store
