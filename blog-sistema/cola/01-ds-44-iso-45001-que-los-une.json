@@ -1,0 +1,124 @@
+{
+    "titulo": "DS 44 e ISO 45001: qué los une y qué no se reemplaza",
+    "intro": [
+        "Para una empresa chilena, el DS 44 es una obligación legal y la ISO 45001 es una decisión voluntaria. Con frecuencia se les trata como si fueran lo mismo, y no lo son.",
+        "Se parecen en el método. Por eso conviene trabajarlos juntos, sin duplicar tareas. A continuación revisamos qué los une y qué hay que cuidar."
+    ],
+    "secciones": [
+        {
+            "h": "Una obliga y la otra se elige",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "El DS 44 es el reglamento sobre gestión preventiva de los riesgos laborales para un entorno de trabajo seguro y saludable. Reemplaza, entre otros, al DS 40 y al DS 54. Las empresas lo cumplen porque la ley lo exige, y lo fiscaliza la autoridad."
+                },
+                {
+                    "t": "p",
+                    "x": "La ISO 45001 es una norma internacional de sistemas de gestión de seguridad y salud en el trabajo. Ninguna ley obliga a certificarla. Se hace para ordenar el sistema, para responder a exigencias de clientes o por ambas razones."
+                },
+                {
+                    "t": "p",
+                    "x": "En la práctica, esto cambia el punto de partida. Con el DS 44, la pregunta es si la empresa cumple lo mínimo exigido. Con la ISO 45001, la pregunta es qué tan bien funciona su sistema y si mejora con el tiempo. Una empresa puede cumplir la ley sin tener un sistema que se revise y se mejore, y por eso la norma internacional puede aportar orden adicional."
+                }
+            ]
+        },
+        {
+            "h": "Dónde se parecen",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Ambos parten de la misma idea: gestionar el riesgo antes de que ocurra el daño. En la práctica comparten varios pasos."
+                },
+                {
+                    "t": "ul",
+                    "items": [
+                        "Identificar peligros y evaluar riesgos.",
+                        "Definir controles y verificar que funcionan.",
+                        "Asegurar la participación de los trabajadores.",
+                        "Investigar los incidentes y corregir sus causas.",
+                        "Revisar el sistema y mejorarlo."
+                    ]
+                },
+                {
+                    "t": "p",
+                    "x": "Si su empresa ya trabaja de forma ordenada con el DS 44, tiene avanzada buena parte de la ISO 45001."
+                }
+            ]
+        },
+        {
+            "h": "Dónde no se reemplazan",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La ISO 45001 pide identificar los requisitos legales aplicables y evaluar su cumplimiento. Es el apartado 6.1.3 de la norma. Por eso, un certificado ISO no prueba que la empresa cumpla la ley."
+                },
+                {
+                    "t": "p",
+                    "x": "Y al revés: cumplir la ley no basta para certificar. La norma exige además liderazgo de la dirección, objetivos medibles, auditoría interna y revisión por la dirección."
+                },
+                {
+                    "t": "img",
+                    "n": 1
+                }
+            ]
+        },
+        {
+            "h": "Cómo ordenar el trabajo",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Primero, arme una matriz de requisitos legales con la obligación, su responsable y la evidencia de cumplimiento. Esa matriz sirve para la fiscalización y para la auditoría de certificación."
+                },
+                {
+                    "t": "p",
+                    "x": "Después, cruce cada cláusula de la ISO 45001 con lo que su empresa ya hace. Muchas veces lo que falta no es una actividad, sino el registro que la respalda."
+                }
+            ]
+        },
+        {
+            "h": "Qué hacer primero",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Un buen primer paso es una reunión corta entre la gerencia, el prevencionista y un representante de los trabajadores. Allí se acuerda qué se quiere lograr: cumplir mejor, certificar o ambas cosas. Con ese acuerdo, el diagnóstico deja de ser un trámite y se convierte en la base de un plan con prioridades y plazos realistas."
+                },
+                {
+                    "t": "p",
+                    "x": "Parta por un diagnóstico simple. Pregunte qué exige el DS 44 a su empresa según su tamaño y actividad, y qué evidencia tiene hoy. Si tiene dudas legales, consulte a su organismo administrador de la Ley 16.744 o a un asesor."
+                },
+                {
+                    "t": "p",
+                    "x": "Con ese diagnóstico, decida si la certificación aporta valor a su negocio. Si lo hace, el trabajo ya hecho para cumplir el DS 44 le servirá de base."
+                }
+            ]
+        }
+    ],
+    "id": "ds-44-iso-45001-que-los-une",
+    "slug": "ds-44-iso-45001-que-los-une",
+    "descripcion": "El DS 44 es obligatorio y la ISO 45001 es voluntaria. Vea dónde se parecen, dónde no se reemplazan y cómo ordenar el trabajo.",
+    "etiqueta": "ISO 45001",
+    "tema": "ISO 45001 y DS 44",
+    "cta_titulo": "¿Quiere ordenar el cumplimiento legal y la ISO 45001?",
+    "cta_texto": "Revisamos qué tiene hoy y le proponemos un orden de trabajo, sin costo.",
+    "linkedin": "El DS 44 es obligatorio. La ISO 45001 es voluntaria. Se parecen mucho en método, pero una no reemplaza a la otra.\n\nSi su empresa quiere certificar, el sistema debe incluir los requisitos legales chilenos y demostrar que se cumplen.\n\nCómo ordenar ambos sin duplicar trabajo, en el artículo:\n{URL}\n\n#ISO45001 #DS44 #PrevenciónDeRiesgos #SST #Chile",
+    "facebook": "Colegas prevencionistas: ¿ya cruzó su sistema con el DS 44? La ISO 45001 se parece en el método, pero un certificado no reemplaza el cumplimiento legal. Armamos una guía corta para ordenar ambos sin duplicar trabajo: {URL}",
+    "imagenes": [
+        {
+            "id": 18111488,
+            "url_base": "https://images.pexels.com/photos/18111488/pexels-photo-18111488.jpeg",
+            "alt": "Grupo de trabajadores con casco y chaleco de seguridad colaborando en una obra urbana.",
+            "fotografo": "Joaquin Carfagna",
+            "perfil": "https://www.pexels.com/@joaquin-carfagna-3131171/"
+        },
+        {
+            "id": 20296399,
+            "url_base": "https://images.pexels.com/photos/20296399/pexels-photo-20296399.jpeg",
+            "alt": "Dos trabajadores con chaleco reflectante y casco de pie en una calle junto a un edificio.",
+            "fotografo": "Yoda",
+            "perfil": "https://www.pexels.com/@yoda-497072362/"
+        }
+    ],
+    "estado": "cola",
+    "creado": "2026-10-28T09:03:56-03:00",
+    "archivo_cola": "01-ds-44-iso-45001-que-los-une.json"
+}

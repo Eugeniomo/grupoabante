@@ -1,0 +1,128 @@
+{
+    "titulo": "Investigación de incidentes: de la denuncia a la acción correctiva",
+    "intro": [
+        "Después de un accidente, la empresa debe cumplir con la denuncia y los trámites que fija la Ley 16.744. Ese paso es obligatorio, pero no es la investigación. Investigar es entender por qué ocurrió.",
+        "La ISO 45001 trata el tema en el apartado 10.2, sobre incidentes, no conformidades y acciones correctivas. Veamos cómo hacerlo bien."
+    ],
+    "secciones": [
+        {
+            "h": "Denunciar e investigar son cosas distintas",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La denuncia cumple con la obligación hacia el organismo administrador. Los plazos y los formularios los fija la normativa, y es mejor confirmarlos con su organismo administrador."
+                },
+                {
+                    "t": "p",
+                    "x": "La investigación es interna y busca causas. Sirve para que el hecho no se repita."
+                },
+                {
+                    "t": "p",
+                    "x": "Esta diferencia importa porque muchas empresas consideran cerrado el caso al presentar la denuncia. Sin embargo, el organismo administrador cumple su función con la denuncia, pero no puede conocer los detalles internos del trabajo. Esa información solo la tiene la empresa, y por eso la investigación interna es insustituible para evitar que el hecho vuelva a ocurrir."
+                }
+            ]
+        },
+        {
+            "h": "Qué se investiga",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La norma habla de incidentes, no solo de accidentes con lesión. Eso incluye los cuasi accidentes, es decir, los hechos que pudieron causar daño y no lo causaron. Son una fuente barata de aprendizaje porque avisan antes del daño."
+                },
+                {
+                    "t": "p",
+                    "x": "No es necesario aplicar el mismo nivel de profundidad a todos los hechos. Defina criterios según la gravedad real y la gravedad potencial: un cuasi accidente que pudo causar un daño serio merece más análisis que una lesión menor en una tarea de bajo riesgo. Lo importante es que cada hecho reportado reciba una respuesta proporcional y quede registrado."
+                }
+            ]
+        },
+        {
+            "h": "Los pasos de una investigación útil",
+            "bloques": [
+                {
+                    "t": "ul",
+                    "items": [
+                        "**Reaccionar:** atender a la persona, controlar la situación y resguardar el lugar.",
+                        "**Reunir hechos:** fotografías, declaraciones, registros y condiciones del lugar.",
+                        "**Analizar causas:** preguntar por qué, varias veces, hasta llegar a causas del sistema.",
+                        "**Definir acciones:** con responsable, fecha y recursos.",
+                        "**Verificar:** comprobar más adelante que la acción resultó eficaz."
+                    ]
+                },
+                {
+                    "t": "p",
+                    "x": "La norma exige que los trabajadores participen en la investigación."
+                },
+                {
+                    "t": "p",
+                    "x": "Asigne a una persona la conducción, con apoyo de quien conoce la tarea y de un representante de los trabajadores. Fije un plazo razonable para terminar el informe."
+                },
+                {
+                    "t": "img",
+                    "n": 1
+                }
+            ]
+        },
+        {
+            "h": "Evite el «error humano» como conclusión",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Si el informe concluye que el trabajador no siguió el procedimiento, la investigación todavía no termina. Falta preguntar por qué no lo siguió. Tal vez el procedimiento no era práctico, faltaba capacitación, había presión de tiempo o el equipo no era adecuado."
+                },
+                {
+                    "t": "p",
+                    "x": "Cuando se busca al culpable, los trabajadores dejan de informar los incidentes. Cuando se busca la causa, informan más y la empresa aprende."
+                }
+            ]
+        },
+        {
+            "h": "Cierre la acción correctiva",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Una acción correctiva sin fecha ni responsable no se cumple. Registre cada acción y revísela en las reuniones del comité o de la gerencia."
+                },
+                {
+                    "t": "p",
+                    "x": "Después de un tiempo, verifique si el problema volvió. Esa comprobación es lo que la norma llama revisar la eficacia de la acción."
+                },
+                {
+                    "t": "p",
+                    "x": "Finalmente, conserve la información documentada de la investigación. Será su evidencia ante una auditoría y su memoria cuando el equipo cambie."
+                },
+                {
+                    "t": "p",
+                    "x": "Una práctica útil es revisar los casos en conjunto cada cierto tiempo. Al comparar varias investigaciones, aparecen causas que se repiten, como la falta de mantención de un equipo o la presión por cumplir plazos. Esas causas comunes son las que realmente justifican cambios en el sistema."
+                }
+            ]
+        }
+    ],
+    "id": "investigacion-de-incidentes-accion-correctiva",
+    "slug": "investigacion-de-incidentes-accion-correctiva",
+    "descripcion": "Investigar un incidente no es buscar culpables. Vea cómo llegar a las causas y cerrar la acción correctiva según ISO 45001.",
+    "etiqueta": "ISO 45001",
+    "tema": "Investigación de incidentes",
+    "cta_titulo": "¿Su proceso de investigación llega a las causas?",
+    "cta_texto": "Revisamos su procedimiento y casos recientes, y le damos recomendaciones, sin costo.",
+    "linkedin": "Denunciar un accidente no es lo mismo que investigarlo.\n\nLa ISO 45001 pide determinar las causas, actuar sobre ellas y verificar que la acción funcionó. Si la investigación termina en «error del trabajador», probablemente quedó a medias.\n\nCómo hacerlo bien:\n{URL}\n\n#ISO45001 #InvestigaciónDeIncidentes #PrevenciónDeRiesgos #SST #Chile",
+    "facebook": "Prevencionistas: ¿cuántas investigaciones de su empresa terminan en «error del trabajador»? Una buena investigación llega a las causas del sistema. Revise los pasos aquí: {URL}",
+    "imagenes": [
+        {
+            "id": 8487392,
+            "url_base": "https://images.pexels.com/photos/8487392/pexels-photo-8487392.jpeg",
+            "alt": "Trabajadores con equipo de protección revisando documentos impresos de cerca.",
+            "fotografo": "Kindel Media",
+            "perfil": "https://www.pexels.com/@kindelmedia/"
+        },
+        {
+            "id": 8487401,
+            "url_base": "https://images.pexels.com/photos/8487401/pexels-photo-8487401.jpeg",
+            "alt": "Primer plano de trabajadores con equipo de protección sosteniendo y revisando documentos.",
+            "fotografo": "Kindel Media",
+            "perfil": "https://www.pexels.com/@kindelmedia/"
+        }
+    ],
+    "estado": "cola",
+    "creado": "2026-10-28T09:03:56-03:00",
+    "archivo_cola": "03-investigacion-de-incidentes-accion-correctiva.json"
+}

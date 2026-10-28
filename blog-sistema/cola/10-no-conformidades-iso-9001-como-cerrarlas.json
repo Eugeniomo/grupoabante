@@ -1,0 +1,132 @@
+{
+    "titulo": "No conformidades en ISO 9001: cómo cerrarlas de verdad",
+    "intro": [
+        "Una no conformidad es el incumplimiento de un requisito. Puede ser de la norma, del cliente o de la propia empresa. Todas las empresas las tienen. Lo importante es qué se hace con ellas.",
+        "La ISO 9001 trata el tema en el apartado 10.2. Veamos cómo cerrarlas de verdad."
+    ],
+    "secciones": [
+        {
+            "h": "Corrección y acción correctiva",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La norma distingue dos cosas. La corrección soluciona el problema inmediato, como reprocesar un lote o reemitir un documento. La acción correctiva elimina la causa para que no vuelva a ocurrir."
+                },
+                {
+                    "t": "p",
+                    "x": "Si solo se hace la corrección, el problema reaparecerá. Muchas no conformidades repetidas tienen este origen."
+                },
+                {
+                    "t": "p",
+                    "x": "Un ejemplo ayuda a entenderlo. Si un cliente recibe un producto con una etiqueta equivocada, la corrección es reemplazar el producto. La acción correctiva es averiguar por qué se imprimió mal la etiqueta y cambiar el proceso para que no ocurra otra vez. Sin esta segunda parte, la empresa seguirá corrigiendo el mismo error."
+                }
+            ]
+        },
+        {
+            "h": "Los pasos que pide la norma",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Ante una no conformidad, la empresa debe actuar en secuencia."
+                },
+                {
+                    "t": "ul",
+                    "items": [
+                        "Reaccionar: controlarla, corregirla y hacerse cargo de sus consecuencias.",
+                        "Evaluar si necesita una acción para eliminar la causa.",
+                        "Aplicar la acción definida.",
+                        "Revisar si la acción fue eficaz.",
+                        "Actualizar riesgos y oportunidades, y modificar el sistema si corresponde."
+                    ]
+                },
+                {
+                    "t": "p",
+                    "x": "Además, debe conservar información documentada de la naturaleza del problema y de las acciones realizadas."
+                },
+                {
+                    "t": "p",
+                    "x": "Recuerde que no toda no conformidad exige una acción correctiva. La norma pide evaluar la necesidad, considerando la gravedad y la probabilidad de que se repita. Un error puntual y sin consecuencias puede resolverse con una corrección, y registrarse. Lo importante es dejar constancia de la decisión y de sus motivos."
+                },
+                {
+                    "t": "img",
+                    "n": 1
+                }
+            ]
+        },
+        {
+            "h": "Cómo llegar a la causa",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Una técnica sencilla es preguntar «¿por qué?» varias veces. Si un producto salió con un defecto, no basta con decir que el operador se equivocó. Cabe preguntar por qué se equivocó: ¿faltaba una instrucción clara?, ¿el equipo no estaba calibrado?, ¿el pedido llegó con información incompleta?"
+                },
+                {
+                    "t": "p",
+                    "x": "Haga el análisis en grupo, con las personas que conocen el proceso. Así aparecen causas que una sola persona no vería."
+                }
+            ]
+        },
+        {
+            "h": "Defina acciones concretas",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Una buena acción tiene responsable, fecha y recursos. Evite acciones como «reforzar la capacitación» o «tener más cuidado», porque no se pueden verificar."
+                },
+                {
+                    "t": "p",
+                    "x": "Prefiera acciones que cambien el proceso: una lista de verificación, una instrucción corregida, una validación automática o un control en el punto donde nace el error."
+                },
+                {
+                    "t": "p",
+                    "x": "Revise las acciones pendientes en una reunión periódica, con la participación de los responsables. Las acciones vencidas son una señal de que algo no funciona: puede faltar tiempo, recursos o prioridad. Detectar eso a tiempo es parte del trabajo de quien administra el sistema."
+                }
+            ]
+        },
+        {
+            "h": "Verifique la eficacia",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La norma pide revisar si la acción fue eficaz. Para eso, fije con anterioridad cómo lo comprobará: por ejemplo, revisando si el problema reaparece durante un período definido."
+                },
+                {
+                    "t": "p",
+                    "x": "Si el problema vuelve, la causa no era la correcta. Reabra el caso y analícelo de nuevo. Esa revisión es lo que distingue un sistema que mejora de uno que solo llena formularios."
+                },
+                {
+                    "t": "p",
+                    "x": "Deje registrada la fecha de verificación y quién la hará. Si nadie queda a cargo, esta etapa es la que más se omite, y con ella se pierde el aprendizaje de todo el proceso anterior."
+                }
+            ]
+        }
+    ],
+    "id": "no-conformidades-iso-9001-como-cerrarlas",
+    "slug": "no-conformidades-iso-9001-como-cerrarlas",
+    "descripcion": "Corregir no es lo mismo que eliminar la causa. Vea cómo tratar una no conformidad en ISO 9001 y evitar que se repita.",
+    "etiqueta": "ISO 9001",
+    "tema": "No conformidades ISO 9001",
+    "cta_titulo": "¿Se le repiten las mismas no conformidades?",
+    "cta_texto": "Revisamos sus casos y le ayudamos a llegar a las causas, sin costo.",
+    "linkedin": "Si una no conformidad se repite, probablemente se corrigió, pero no se eliminó su causa.\n\nQué pide ISO 9001 en el apartado 10.2 y cómo cerrar bien cada caso:\n{URL}\n\n#ISO9001 #NoConformidades #AccionesCorrectivas #Calidad #Chile",
+    "facebook": "¿Le vuelven a aparecer las mismas no conformidades? Corregir no es lo mismo que eliminar la causa. Revise cómo cerrar bien cada caso en ISO 9001: {URL}",
+    "imagenes": [
+        {
+            "id": 32845671,
+            "url_base": "https://images.pexels.com/photos/32845671/pexels-photo-32845671.jpeg",
+            "alt": "Ingeniera con equipo de seguridad sosteniendo documentos y revisando maquinaria en una planta.",
+            "fotografo": "Sergey Sergeev",
+            "perfil": "https://www.pexels.com/@sergey-sergeev-2153675005/"
+        },
+        {
+            "id": 32845674,
+            "url_base": "https://images.pexels.com/photos/32845674/pexels-photo-32845674.jpeg",
+            "alt": "Trabajadora con equipo de seguridad inspeccionando láminas metálicas en una fábrica.",
+            "fotografo": "Sergey Sergeev",
+            "perfil": "https://www.pexels.com/@sergey-sergeev-2153675005/"
+        }
+    ],
+    "estado": "cola",
+    "creado": "2026-10-28T09:03:56-03:00",
+    "archivo_cola": "10-no-conformidades-iso-9001-como-cerrarlas.json"
+}

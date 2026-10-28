@@ -1,0 +1,125 @@
+{
+    "titulo": "Cómo integrar ISO 9001, 14001 y 45001 sin triplicar la documentación",
+    "intro": [
+        "Una empresa que tiene ISO 9001, 14001 y 45001 puede terminar con tres manuales, tres auditorías y tres reuniones de revisión. Es un desgaste evitable.",
+        "Las tres normas comparten una estructura común, por lo que se pueden integrar en un solo sistema. Veamos cómo."
+    ],
+    "secciones": [
+        {
+            "h": "Una estructura común",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Las versiones vigentes de las tres normas, ISO 9001:2015, ISO 14001:2015 e ISO 45001:2018, usan la misma estructura de diez capítulos. Todas tratan el contexto de la organización, el liderazgo, la planificación, el apoyo, la operación, la evaluación del desempeño y la mejora."
+                },
+                {
+                    "t": "p",
+                    "x": "Esa coincidencia es la que hace posible integrarlas."
+                },
+                {
+                    "t": "p",
+                    "x": "Además de los capítulos, las tres normas comparten varios términos y definiciones, como política, objetivo, riesgo, no conformidad y mejora continua. Esto facilita escribir documentos que sirvan para los tres temas y evita contradicciones. Si cada norma se implementa por separado, es habitual que las mismas palabras se usen con significados distintos en cada manual."
+                }
+            ]
+        },
+        {
+            "h": "Lo que se puede unificar",
+            "bloques": [
+                {
+                    "t": "ul",
+                    "items": [
+                        "**Política:** una política integrada que cubra calidad, ambiente y seguridad.",
+                        "**Contexto y partes interesadas:** un solo análisis, con las particularidades de cada tema.",
+                        "**Información documentada:** un único procedimiento para crear, aprobar y controlar documentos.",
+                        "**Auditoría interna:** un programa y un equipo que audite las tres normas.",
+                        "**Acciones correctivas:** un mismo procedimiento y un mismo registro.",
+                        "**Revisión por la dirección:** una sola reunión con tres temas."
+                    ]
+                },
+                {
+                    "t": "p",
+                    "x": "No es necesario hacerlo todo a la vez. Elija primero lo que hoy más tiempo le consume, por ejemplo las auditorías o la revisión de documentos, y unifíquelo. El ahorro que obtenga en esa etapa le dará argumentos para continuar con las siguientes."
+                }
+            ]
+        },
+        {
+            "h": "Lo que debe seguir separado",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Cada norma tiene un núcleo propio. En calidad, el control de los procesos y la satisfacción del cliente. En ambiente, los aspectos ambientales y los requisitos legales ambientales. En seguridad y salud, los peligros, los riesgos y la participación de los trabajadores."
+                },
+                {
+                    "t": "p",
+                    "x": "Esos análisis deben mantenerse diferenciados. Integrar no significa mezclarlos, sino que usen el mismo sistema de trabajo y los mismos registros cuando corresponda."
+                },
+                {
+                    "t": "img",
+                    "n": 1
+                }
+            ]
+        },
+        {
+            "h": "Cómo avanzar por etapas",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Comience por lo más fácil: política, control de documentos y auditoría interna. Después unifique las acciones correctivas y la revisión por la dirección."
+                },
+                {
+                    "t": "p",
+                    "x": "Deje para el final los análisis de riesgos, porque requieren más trabajo y participación de especialistas. Y no lo haga todo de una vez: cada etapa debe probarse en la práctica antes de pasar a la siguiente, con el apoyo de las personas que usarán los nuevos documentos."
+                },
+                {
+                    "t": "p",
+                    "x": "Asigne también un responsable de coordinar la integración, con respaldo explícito de la gerencia. Sin ese respaldo, cada área tiende a defender sus propios documentos y el proyecto se estanca. Informe los avances en las reuniones de gestión y celebre los pequeños logros, porque mantienen el interés del equipo."
+                }
+            ]
+        },
+        {
+            "h": "Qué ganará la empresa",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Menos documentos que mantener, menos reuniones y una visión más completa de la empresa. También puede simplificar las auditorías de certificación: consulte a su organismo certificador si ofrece auditorías combinadas."
+                },
+                {
+                    "t": "p",
+                    "x": "Si su empresa ya certificó una norma, lo habitual es partir desde ahí y sumar las otras dos."
+                },
+                {
+                    "t": "p",
+                    "x": "Además, un sistema único es más fácil de explicar a los trabajadores nuevos. En lugar de aprender tres formas de trabajar, aprenden una, y las reglas de calidad, ambiente y seguridad se vuelven parte del mismo trabajo diario."
+                }
+            ]
+        }
+    ],
+    "id": "integrar-iso-9001-14001-45001-sin-triplicar-documentos",
+    "slug": "integrar-iso-9001-14001-45001-sin-triplicar-documentos",
+    "descripcion": "Las tres normas comparten estructura. Aprenda qué se puede unificar en un sistema integrado y qué debe seguir separado.",
+    "etiqueta": "SGI",
+    "tema": "Sistema de gestión integrado",
+    "cta_titulo": "¿Gestiona tres sistemas por separado?",
+    "cta_texto": "Revisamos qué puede unificar y le proponemos un plan, sin costo.",
+    "linkedin": "Tres normas no tienen por qué ser tres sistemas.\n\nLas ISO 9001, 14001 y 45001 comparten estructura. Política, objetivos, auditoría interna, acciones correctivas y revisión por la dirección se pueden hacer una sola vez.\n\nQué unificar y qué dejar separado:\n{URL}\n\n#SGI #ISO9001 #ISO14001 #ISO45001 #Chile",
+    "facebook": "¿Su empresa tiene tres sistemas de gestión con tres carpetas distintas? Las normas ISO 9001, 14001 y 45001 comparten estructura y se pueden integrar. Mire qué unificar y qué no: {URL}",
+    "imagenes": [
+        {
+            "id": 7792836,
+            "url_base": "https://images.pexels.com/photos/7792836/pexels-photo-7792836.jpeg",
+            "alt": "Equipo diverso trabajando en una oficina moderna con notebooks y documentos.",
+            "fotografo": "Yan Krukau",
+            "perfil": "https://www.pexels.com/@yankrukov/"
+        },
+        {
+            "id": 7792755,
+            "url_base": "https://images.pexels.com/photos/7792755/pexels-photo-7792755.jpeg",
+            "alt": "Vista superior de un equipo en reunión con notebooks y papeles sobre la mesa.",
+            "fotografo": "Yan Krukau",
+            "perfil": "https://www.pexels.com/@yankrukov/"
+        }
+    ],
+    "estado": "cola",
+    "creado": "2026-10-28T09:03:56-03:00",
+    "archivo_cola": "04-integrar-iso-9001-14001-45001-sin-triplicar-documentos.json"
+}

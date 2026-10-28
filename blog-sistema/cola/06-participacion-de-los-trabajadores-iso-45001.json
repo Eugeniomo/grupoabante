@@ -1,0 +1,132 @@
+{
+    "titulo": "Participación de los trabajadores en ISO 45001: más allá del comité paritario",
+    "intro": [
+        "En seguridad y salud, los trabajadores conocen los riesgos de su tarea mejor que nadie. La ISO 45001 lo reconoce y dedica el apartado 5.4 a la consulta y participación de los trabajadores.",
+        "Esto va más allá de tener un comité. Veamos qué significa."
+    ],
+    "secciones": [
+        {
+            "h": "Consultar y participar no es lo mismo",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Consultar es pedir opinión antes de decidir. Participar es intervenir en la decisión. La norma pide ambas cosas, según el tema."
+                },
+                {
+                    "t": "p",
+                    "x": "Para algunas decisiones basta con consultar. Para otras, como definir cómo se identifican los peligros o cómo se investigan los incidentes, los trabajadores deben participar."
+                },
+                {
+                    "t": "p",
+                    "x": "Un ejemplo ayuda a distinguirlas. Si la empresa va a cambiar un equipo, consultar a los trabajadores significa preguntarles qué peligros ven en el cambio antes de comprarlo. Hacerlos participar significa incorporarlos al análisis de riesgos y a la decisión sobre los controles. La segunda opción exige más tiempo, pero produce mejores decisiones."
+                }
+            ]
+        },
+        {
+            "h": "El comité paritario es un canal, no el único",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La normativa chilena ya contempla los comités paritarios de higiene y seguridad como instancia de participación. Es un buen punto de partida, y los registros de sus reuniones son una evidencia útil."
+                },
+                {
+                    "t": "p",
+                    "x": "Pero la ISO 45001 busca la participación de todos los trabajadores, incluidos los que no integran el comité. También habla de involucrar a los trabajadores que no tienen cargos directivos."
+                },
+                {
+                    "t": "img",
+                    "n": 1
+                }
+            ]
+        },
+        {
+            "h": "Dónde debe haber participación",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La norma indica varios temas. Entre ellos:"
+                },
+                {
+                    "t": "ul",
+                    "items": [
+                        "La determinación de los peligros y la evaluación de los riesgos.",
+                        "La definición de controles.",
+                        "La determinación de las necesidades de capacitación.",
+                        "La investigación de incidentes y la definición de acciones correctivas.",
+                        "La definición de los objetivos de seguridad y salud."
+                    ]
+                },
+                {
+                    "t": "p",
+                    "x": "Si su sistema ya consulta a los trabajadores en estos puntos, solo falta dejar registro."
+                },
+                {
+                    "t": "p",
+                    "x": "Para cada tema, defina quiénes participan, de qué manera y con qué frecuencia. Así la participación deja de depender de la buena voluntad de alguien y pasa a ser parte del sistema."
+                }
+            ]
+        },
+        {
+            "h": "Elimine las barreras",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La norma pide eliminar los obstáculos a la participación. Algunos son evidentes: reuniones en horarios en que nadie puede asistir o informes escritos en un lenguaje técnico."
+                },
+                {
+                    "t": "p",
+                    "x": "Otros son menos visibles: el temor a represalias por informar un peligro o la sensación de que nadie hace caso. Si un trabajador reporta un riesgo y nada cambia, dejará de reportar."
+                },
+                {
+                    "t": "p",
+                    "x": "Revise sus propias prácticas con una mirada crítica. Pregunte a los trabajadores qué les dificulta participar y escuche las respuestas sin defenderse. Muchas barreras se resuelven con cambios simples, como reunir al equipo dentro de la jornada, usar un lenguaje claro o entregar un canal reservado para informar peligros."
+                }
+            ]
+        },
+        {
+            "h": "Cómo evidenciarla",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Puede usar actas de reunión, registros de recorridos conjuntos, encuestas breves o conversaciones breves al inicio del turno. Lo importante es que quede constancia de qué se consultó, a quién y qué se hizo con lo que dijeron."
+                },
+                {
+                    "t": "p",
+                    "x": "Cierre el ciclo: cuando un trabajador propone algo, infórmele qué se decidió y por qué. Es la mejor manera de mantener la participación en el tiempo."
+                },
+                {
+                    "t": "p",
+                    "x": "Recuerde que la evidencia no necesita ser extensa. Un acta breve con fecha, asistentes, temas tratados y acuerdos suele ser suficiente. Lo que el auditor busca es verificar que la participación ocurre de verdad y que las opiniones de los trabajadores influyen en las decisiones del sistema."
+                }
+            ]
+        }
+    ],
+    "id": "participacion-de-los-trabajadores-iso-45001",
+    "slug": "participacion-de-los-trabajadores-iso-45001",
+    "descripcion": "La ISO 45001 pide consulta y participación de los trabajadores en todo el sistema. Revise qué significa y cómo ir más allá del comité paritario.",
+    "etiqueta": "ISO 45001",
+    "tema": "Participación de los trabajadores",
+    "cta_titulo": "¿Quiere fortalecer la participación en su empresa?",
+    "cta_texto": "Conversamos sobre su situación y le sugerimos acciones concretas, sin costo.",
+    "linkedin": "En la ISO 45001, la participación de los trabajadores no se agota en el comité paritario.\n\nLa norma distingue entre consultar y hacer participar, y pide eliminar las barreras que impiden hacerlo. Qué significa en la práctica:\n{URL}\n\n#ISO45001 #ParticipaciónDeTrabajadores #PrevenciónDeRiesgos #SST #Chile",
+    "facebook": "Prevencionistas: el comité paritario es importante, pero la ISO 45001 pide más. ¿Los trabajadores participan en la identificación de peligros y en las investigaciones? Revise las ideas del artículo: {URL}",
+    "imagenes": [
+        {
+            "id": 36122947,
+            "url_base": "https://images.pexels.com/photos/36122947/pexels-photo-36122947.jpeg",
+            "alt": "Equipo con chalecos de alta visibilidad conversando dentro de una bodega metálica.",
+            "fotografo": "James Richardson",
+            "perfil": "https://www.pexels.com/@james-richardson-2159544295/"
+        },
+        {
+            "id": 35082108,
+            "url_base": "https://images.pexels.com/photos/35082108/pexels-photo-35082108.jpeg",
+            "alt": "Grupo de trabajadores con equipo de seguridad reunidos al interior de una fábrica.",
+            "fotografo": "Safi Erneste",
+            "perfil": "https://www.pexels.com/@safi-erneste-165511538/"
+        }
+    ],
+    "estado": "cola",
+    "creado": "2026-10-28T09:03:56-03:00",
+    "archivo_cola": "06-participacion-de-los-trabajadores-iso-45001.json"
+}

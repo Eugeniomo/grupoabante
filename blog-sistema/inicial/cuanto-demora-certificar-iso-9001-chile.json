@@ -1,0 +1,130 @@
+{
+    "titulo": "¿Cuánto demora certificar ISO 9001 en Chile?",
+    "intro": [
+        "Una pyme chilena que parte desde cero suele certificar ISO 9001 entre 6 y 12 meses después de iniciar el trabajo. Si ya tiene procedimientos ordenados, puede lograrlo en 4 o 5. Las que dependen de una sola persona para todo, a veces superan el año.",
+        "El plazo no lo fija la norma. Lo fijan el tamaño de la empresa, el tiempo que dedique la gerencia y la agenda del organismo certificador. A continuación revisamos cada etapa, qué suele atrasarla y cómo ganar tiempo sin saltarse requisitos."
+    ],
+    "secciones": [
+        {
+            "h": "Las etapas y cuánto toma cada una",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "El camino tiene cinco tramos. Los tiempos son referenciales para una empresa de entre 20 y 80 personas."
+                },
+                {
+                    "t": "ul",
+                    "items": [
+                        "**Diagnóstico inicial:** 2 a 4 semanas. Se compara lo que la empresa hace hoy con los requisitos de la norma y se define qué falta.",
+                        "**Diseño del sistema:** 6 a 10 semanas. Política de calidad, mapa de procesos, indicadores y los procedimientos que la norma exige.",
+                        "**Implementación:** 3 a 5 meses. Es el tramo más largo, porque aquí el sistema se usa de verdad y deja registros.",
+                        "**Auditoría interna:** 3 a 4 semanas. Se busca el error antes de que lo encuentre un tercero.",
+                        "**Auditoría de certificación:** 1 a 2 meses entre la solicitud y el certificado."
+                    ]
+                },
+                {
+                    "t": "img",
+                    "n": 1
+                }
+            ]
+        },
+        {
+            "h": "Qué alarga el plazo",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La causa más común es que nadie tenga horas asignadas. Si el encargado de calidad también atiende bodega y despachos, el proyecto avanza los viernes por la tarde, cuando alcanza."
+                },
+                {
+                    "t": "p",
+                    "x": "La segunda es documentar de más: hay empresas que redactan 60 procedimientos cuando la norma pide pocos y deja el resto a criterio de la organización. Cada documento extra es uno más que mantener y que el auditor puede pedir."
+                },
+                {
+                    "t": "p",
+                    "x": "La tercera es llegar a la auditoría sin haber probado nada. Si los registros recién existen el mes anterior, el auditor lo nota."
+                }
+            ]
+        },
+        {
+            "h": "Cómo funciona la certificación",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La auditoría la realiza un organismo certificador acreditado ante el Instituto Nacional de Normalización (INN). Pida cotización a dos o tres y consulte con cuántas semanas de anticipación agendan: a veces la espera llega a 6."
+                },
+                {
+                    "t": "p",
+                    "x": "Se hace en dos etapas. En la primera el auditor revisa la documentación y si la empresa está lista. En la segunda verifica en terreno que el sistema funciona. Si encuentra no conformidades, usted tiene un plazo para corregirlas antes de que se emita el certificado."
+                },
+                {
+                    "t": "p",
+                    "x": "El costo depende de los días de auditor, y estos de la cantidad de trabajadores y de sedes. Pida que la cotización los detalle por escrito."
+                },
+                {
+                    "t": "img",
+                    "n": 2
+                }
+            ]
+        },
+        {
+            "h": "Cómo acortarlo",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Primero, nombre un responsable con al menos 8 horas semanales para el proyecto. Segundo, parta de lo que ya existe: casi toda empresa tiene instructivos, planillas y costumbres que sirven si se ordenan. Tercero, registre desde el primer mes de implementación, no desde el cuarto."
+                },
+                {
+                    "t": "p",
+                    "x": "También ayuda contratar la auditoría de certificación con anticipación: fijar la fecha desde el inicio ordena el calendario interno."
+                },
+                {
+                    "t": "p",
+                    "x": "Si su empresa tiene varias sedes, certifique primero una y extienda el sistema después."
+                }
+            ]
+        },
+        {
+            "h": "Después del certificado",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "El certificado dura 3 años. Cada año el organismo vuelve para una auditoría de seguimiento, y al tercero se hace la recertificación. Por eso el sistema tiene que ser uno que la gente use a diario, no uno armado para la visita. Si se acerca la fecha y detecta brechas, avise de inmediato al organismo: es preferible reprogramar una auditoría que recibir no conformidades mayores."
+                }
+            ]
+        }
+    ],
+    "id": "cuanto-demora-certificar-iso-9001-chile",
+    "slug": "cuanto-demora-certificar-iso-9001-chile",
+    "descripcion": "Una pyme chilena tarda entre 6 y 12 meses en certificar ISO 9001. Revise las etapas, qué alarga el plazo y cómo reducirlo.",
+    "etiqueta": "ISO 9001",
+    "tema": "ISO 9001 plazos de certificación",
+    "cta_titulo": "¿Cuánto tomaría en su empresa?",
+    "cta_texto": "Revisamos su situación actual y le entregamos un plazo estimado, sin costo.",
+    "linkedin": "Certificar ISO 9001 en Chile toma entre 6 y 12 meses para una pyme que parte desde cero, y entre 4 y 5 si ya tiene procedimientos ordenados.\n\nLo que más alarga el plazo: nadie con horas asignadas al proyecto, documentar de más y llegar a la auditoría sin registros previos.\n\nDos consejos: nombre un responsable con al menos 8 horas semanales y empiece a registrar desde el primer mes de implementación.\n\nDetalle de etapas y tiempos en el artículo:\n{URL}\n\n#ISO9001 #CertificaciónISO #Chile #Calidad",
+    "facebook": "¿Cuánto demora certificar ISO 9001? Para una pyme que parte desde cero suele ser entre 6 y 12 meses. En el artículo revisamos las etapas, qué atrasa el proceso y cómo ganar tiempo: {URL}",
+    "imagenes": [
+        {
+            "id": 3184291,
+            "url_base": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
+            "alt": "Equipo de trabajo sentado a una mesa, con dos personas dándose la mano",
+            "fotografo": "fauxels",
+            "perfil": "https://www.pexels.com/@fauxels/"
+        },
+        {
+            "id": 3183150,
+            "url_base": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
+            "alt": "Personas revisando documentos y computadores sobre una mesa de trabajo",
+            "fotografo": "fauxels",
+            "perfil": "https://www.pexels.com/@fauxels/"
+        },
+        {
+            "id": 590016,
+            "url_base": "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg",
+            "alt": "Informes impresos con gráficos y un computador sobre un escritorio de madera",
+            "fotografo": "Lukas Blazek",
+            "perfil": "https://www.pexels.com/@goumbik/"
+        }
+    ],
+    "estado": "cola",
+    "creado": "2026-10-28T09:03:56-03:00"
+}

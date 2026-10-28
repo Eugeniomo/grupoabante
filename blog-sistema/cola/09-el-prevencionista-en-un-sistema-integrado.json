@@ -1,0 +1,138 @@
+{
+    "titulo": "El prevencionista en un sistema integrado ISO 9001, 14001 y 45001",
+    "intro": [
+        "Cuando una empresa integra sus sistemas de calidad, ambiente y seguridad, es común que el prevencionista termine a cargo de todo. Es una mala idea, aunque suene práctica.",
+        "La integración funciona mejor cuando cada tema tiene dueño y el prevencionista aporta lo que mejor sabe hacer. Veamos cómo."
+    ],
+    "secciones": [
+        {
+            "h": "Lo que aporta el prevencionista",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Su experiencia es valiosa en varios puntos del sistema integrado."
+                },
+                {
+                    "t": "ul",
+                    "items": [
+                        "**Peligros y riesgos:** identificar, evaluar y proponer controles.",
+                        "**Requisitos legales:** conocer la normativa de seguridad y salud, y mantener al día su cumplimiento.",
+                        "**Participación:** trabajar con el comité paritario y los trabajadores.",
+                        "**Incidentes:** conducir las investigaciones y el seguimiento de las acciones.",
+                        "**Emergencias:** planificar y probar la respuesta."
+                    ]
+                },
+                {
+                    "t": "p",
+                    "x": "Su valor mayor es la mirada en terreno. El prevencionista conoce las tareas reales, las dificultades de los equipos y los atajos que se toman cuando hay apuro. Esa información es muy útil para que los sistemas de calidad y ambiente no se diseñen solo desde el escritorio."
+                }
+            ]
+        },
+        {
+            "h": "Lo que no debería quedar solo en sus manos",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La ISO 45001 pide que la alta dirección asuma el liderazgo del sistema. La responsabilidad final no puede delegarse en el prevencionista, aunque sea quien lo opera a diario."
+                },
+                {
+                    "t": "p",
+                    "x": "Tampoco debería encargarse sin apoyo de la calidad del producto ni de los aspectos ambientales. Son materias distintas, con requisitos y conocimientos propios."
+                },
+                {
+                    "t": "p",
+                    "x": "Un síntoma frecuente es que, al ocurrir un incidente, todas las miradas se dirijan al prevencionista. Una dirección comprometida entiende que los riesgos se gestionan en cada área, y que la seguridad es parte del trabajo de quienes lideran equipos."
+                },
+                {
+                    "t": "img",
+                    "n": 1
+                }
+            ]
+        },
+        {
+            "h": "Cómo repartir los roles",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Una forma práctica es designar un responsable por cada tema, con una persona que coordine el conjunto. Esa persona puede ser un encargado del sistema integrado, que no necesariamente es el prevencionista."
+                },
+                {
+                    "t": "p",
+                    "x": "El comité del sistema, con representantes de operaciones, calidad, ambiente y seguridad, ayuda a tomar decisiones y a resolver conflictos entre prioridades."
+                },
+                {
+                    "t": "p",
+                    "x": "Escriba los roles en un documento simple y compártalo con todo el equipo. Cuando las funciones están definidas, las personas saben a quién acudir y se reducen los traspasos informales. Revise la distribución cada cierto tiempo, porque la empresa cambia y los roles deben acompañar ese cambio."
+                }
+            ]
+        },
+        {
+            "h": "Dónde colaborar",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Hay tareas en que el trabajo conjunto ahorra esfuerzo."
+                },
+                {
+                    "t": "ul",
+                    "items": [
+                        "La auditoría interna, con un equipo mixto.",
+                        "El análisis de contexto y de partes interesadas.",
+                        "El control de documentos.",
+                        "Las acciones correctivas y la revisión por la dirección.",
+                        "El control de cambios, que afecta a calidad, ambiente y seguridad a la vez."
+                    ]
+                },
+                {
+                    "t": "p",
+                    "x": "El trabajo conjunto también mejora la comunicación entre áreas. Cuando un auditor de calidad y un prevencionista recorren juntos una planta, cada uno nota cosas que el otro no ve. Esa mirada compartida es una de las mayores ventajas de un sistema integrado."
+                }
+            ]
+        },
+        {
+            "h": "Cuide la independencia",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Para auditar, el prevencionista no puede revisar su propio trabajo. En un sistema integrado, conviene que audite áreas distintas de las que gestiona."
+                },
+                {
+                    "t": "p",
+                    "x": "Defina también cómo se resuelve un desacuerdo, por ejemplo, entre la urgencia de producción y una medida de seguridad. Lo ideal es que la decisión llegue a la dirección, que es quien responde por el sistema."
+                },
+                {
+                    "t": "p",
+                    "x": "También conviene que el prevencionista tenga acceso directo a la gerencia. Si debe pasar por varios niveles para informar un riesgo grave, el sistema pierde velocidad justo cuando más la necesita."
+                }
+            ]
+        }
+    ],
+    "id": "el-prevencionista-en-un-sistema-integrado",
+    "slug": "el-prevencionista-en-un-sistema-integrado",
+    "descripcion": "En un sistema integrado, el prevencionista no debe quedar solo con la seguridad. Vea qué aporta y cómo repartir roles.",
+    "etiqueta": "SGI",
+    "tema": "Rol del prevencionista en un SGI",
+    "cta_titulo": "¿Quiere definir bien los roles de su sistema integrado?",
+    "cta_texto": "Revisamos su organización y le proponemos una distribución clara, sin costo.",
+    "linkedin": "En un sistema de gestión integrado, ¿qué le corresponde al prevencionista?\n\nSu aporte es clave en peligros, requisitos legales, participación e investigación de incidentes. Pero no debería cargar con la calidad y el ambiente. Cómo repartir los roles:\n{URL}\n\n#SGI #Prevencionista #ISO45001 #ISO9001 #ISO14001 #Chile",
+    "facebook": "Colegas prevencionistas: cuando la empresa integra calidad, ambiente y seguridad, ¿quién hace qué? Su rol es clave, pero no debería quedar solo con todo. Revise cómo repartir las funciones: {URL}",
+    "imagenes": [
+        {
+            "id": 8961003,
+            "url_base": "https://images.pexels.com/photos/8961003/pexels-photo-8961003.jpeg",
+            "alt": "Un hombre y una mujer con equipo de seguridad conversando frente a frente en una obra al aire libre.",
+            "fotografo": "Mikael Blomkvist",
+            "perfil": "https://www.pexels.com/@mikael-blomkvist/"
+        },
+        {
+            "id": 8961111,
+            "url_base": "https://images.pexels.com/photos/8961111/pexels-photo-8961111.jpeg",
+            "alt": "Un hombre de camisa azul conversando con una mujer con chaleco de seguridad en un día soleado.",
+            "fotografo": "Mikael Blomkvist",
+            "perfil": "https://www.pexels.com/@mikael-blomkvist/"
+        }
+    ],
+    "estado": "cola",
+    "creado": "2026-10-28T09:03:56-03:00",
+    "archivo_cola": "09-el-prevencionista-en-un-sistema-integrado.json"
+}

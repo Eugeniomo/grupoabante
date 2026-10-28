@@ -1,0 +1,134 @@
+{
+    "titulo": "ISO 14001: cómo identificar aspectos ambientales y decidir cuáles son significativos",
+    "intro": [
+        "La ISO 14001 se apoya en una pregunta simple: ¿qué hace nuestra empresa que interactúa con el medio ambiente? La respuesta son sus aspectos ambientales.",
+        "Identificarlos bien define todo el sistema. Revisamos un método sencillo."
+    ],
+    "secciones": [
+        {
+            "h": "Aspecto e impacto, dos cosas distintas",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Un aspecto ambiental es un elemento de las actividades, productos o servicios que interactúa con el medio ambiente. Un impacto es el cambio que produce, sea adverso o beneficioso."
+                },
+                {
+                    "t": "p",
+                    "x": "Por ejemplo, el uso de solventes es un aspecto, y la posible contaminación del suelo o del aire es el impacto. Separar ambos conceptos evita confusiones."
+                },
+                {
+                    "t": "p",
+                    "x": "Esta distinción tiene una consecuencia práctica. Los controles se aplican sobre el aspecto, que es lo que la empresa maneja, y sus resultados se observan en el impacto. Si usted controla bien el uso de solventes, reduce la probabilidad de un impacto adverso. Por eso conviene redactar los aspectos de forma clara y concreta."
+                }
+            ]
+        },
+        {
+            "h": "Cómo levantarlos",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La norma, en el apartado 6.1.2, pide considerar el ciclo de vida, es decir, mirar más allá de las instalaciones propias. Eso incluye materias primas, transporte, uso del producto y disposición final, en la medida que la empresa pueda controlarlos o influir en ellos."
+                },
+                {
+                    "t": "p",
+                    "x": "Considere tres condiciones de operación."
+                },
+                {
+                    "t": "ul",
+                    "items": [
+                        "**Normales:** el funcionamiento habitual.",
+                        "**Anormales:** arranques, detenciones y mantenciones.",
+                        "**De emergencia:** derrames, incendios u otros hechos."
+                    ]
+                },
+                {
+                    "t": "p",
+                    "x": "Una forma ordenada de hacerlo es recorrer el proceso paso a paso, desde que entran los insumos hasta que salen el producto y los residuos. En cada paso, pregunte qué se consume, qué se genera y qué podría salir mal. Hágalo junto a las personas que operan el proceso, porque conocen detalles que no aparecen en los diagramas."
+                },
+                {
+                    "t": "img",
+                    "n": 1
+                }
+            ]
+        },
+        {
+            "h": "Cómo decidir cuáles son significativos",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La norma exige que la empresa defina criterios para determinar cuáles aspectos son significativos. No impone un método único. Puede usar criterios como la gravedad del impacto, la frecuencia con que ocurre, el cumplimiento de requisitos legales y las preocupaciones de partes interesadas."
+                },
+                {
+                    "t": "p",
+                    "x": "Elija criterios simples y aplíquelos siempre igual. Debe poder explicar a un auditor por qué un aspecto es significativo y otro no."
+                },
+                {
+                    "t": "p",
+                    "x": "Un método frecuente es asignar puntajes a cada criterio y fijar un valor desde el cual el aspecto se considera significativo. Pruebe el método con algunos casos conocidos para confirmar que los resultados tengan sentido."
+                }
+            ]
+        },
+        {
+            "h": "Conecte con los requisitos legales",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La ISO 14001 también pide identificar los requisitos legales ambientales. Si su empresa genera residuos peligrosos, por ejemplo, la normativa sanitaria chilena regula su manejo, como el DS 148. Verifique con un asesor qué normas le aplican según su actividad."
+                },
+                {
+                    "t": "p",
+                    "x": "Los aspectos significativos y los requisitos legales son la base para definir los controles."
+                },
+                {
+                    "t": "p",
+                    "x": "Mantenga una lista de esos requisitos con su responsable y la evidencia de cumplimiento, y revísela al menos una vez al año."
+                }
+            ]
+        },
+        {
+            "h": "Mantenga la información al día",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Los aspectos ambientales cambian con los procesos, los productos y los insumos. Revíselos cuando ocurran cambios, y al menos una vez al año."
+                },
+                {
+                    "t": "p",
+                    "x": "Conserve la información documentada del método, de los criterios y de los resultados. Será lo primero que pida el auditor."
+                },
+                {
+                    "t": "p",
+                    "x": "Incluya además los aspectos que pueden surgir de proyectos nuevos, como una ampliación, un cambio de proveedor o una nueva línea de servicio. Evaluar el aspecto antes de empezar permite incorporar controles desde el diseño, lo que suele costar menos que corregir después de que el problema aparece."
+                }
+            ]
+        }
+    ],
+    "id": "iso-14001-aspectos-ambientales-significativos",
+    "slug": "iso-14001-aspectos-ambientales-significativos",
+    "descripcion": "Identificar aspectos ambientales y elegir los significativos es el corazón de ISO 14001. Revise un método simple para una pyme.",
+    "etiqueta": "ISO 14001",
+    "tema": "ISO 14001 aspectos ambientales",
+    "cta_titulo": "¿Necesita levantar sus aspectos ambientales?",
+    "cta_texto": "Le mostramos un método simple y lo aplicamos a un proceso de su empresa, sin costo.",
+    "linkedin": "En ISO 14001, todo parte de los aspectos ambientales: qué hace su empresa que interactúa con el ambiente.\n\nCómo identificarlos, evaluarlos y decidir cuáles son significativos, con un método simple para pymes:\n{URL}\n\n#ISO14001 #GestiónAmbiental #SGI #Chile",
+    "facebook": "Si su empresa trabaja con ISO 14001, o piensa hacerlo, todo parte por identificar los aspectos ambientales. Le dejamos un método simple, pensado para pymes: {URL}",
+    "imagenes": [
+        {
+            "id": 34406294,
+            "url_base": "https://images.pexels.com/photos/34406294/pexels-photo-34406294.jpeg",
+            "alt": "Cuatro contenedores de reciclaje para papel, plástico, metal y vidrio en un espacio interior.",
+            "fotografo": "Guilherme Pedrosa",
+            "perfil": "https://www.pexels.com/@guilherme-pedrosa-2156844062/"
+        },
+        {
+            "id": 12492301,
+            "url_base": "https://images.pexels.com/photos/12492301/pexels-photo-12492301.jpeg",
+            "alt": "Contenedores con cartón y papel en un área de reciclaje con letrero.",
+            "fotografo": "Robert So",
+            "perfil": "https://www.pexels.com/@robertkso/"
+        }
+    ],
+    "estado": "cola",
+    "creado": "2026-10-28T09:03:56-03:00",
+    "archivo_cola": "07-iso-14001-aspectos-ambientales-significativos.json"
+}

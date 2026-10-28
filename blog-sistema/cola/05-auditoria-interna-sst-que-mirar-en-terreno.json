@@ -1,0 +1,128 @@
+{
+    "titulo": "Auditoría interna de SST: cómo prepararla y qué mirar en terreno",
+    "intro": [
+        "La auditoría interna es la forma de descubrir los problemas del sistema antes de que lo haga un tercero. Cuando se hace como trámite, pierde su valor.",
+        "La ISO 45001 la trata en el apartado 9.2. Revisamos cómo prepararla y qué observar en terreno."
+    ],
+    "secciones": [
+        {
+            "h": "Lo que pide la norma",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La empresa debe tener un programa de auditoría con frecuencia, métodos y responsables definidos. Cada auditoría debe tener criterios y alcance claros. Los auditores deben ser objetivos e imparciales, y los resultados deben informarse a la dirección y a los trabajadores pertinentes."
+                },
+                {
+                    "t": "p",
+                    "x": "También debe conservarse evidencia de todo el proceso."
+                },
+                {
+                    "t": "p",
+                    "x": "Esto significa que la auditoría interna no es una formalidad. Sus resultados alimentan la revisión por la dirección y las decisiones de mejora. Una empresa que audita bien conoce sus debilidades antes de que se transformen en un accidente, en un hallazgo mayor de la autoridad o en una no conformidad ante el organismo certificador."
+                }
+            ]
+        },
+        {
+            "h": "Planifique con criterio",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "No todos los procesos tienen el mismo riesgo. Dedique más tiempo a las actividades más peligrosas y a las áreas con incidentes o hallazgos anteriores."
+                },
+                {
+                    "t": "p",
+                    "x": "Defina los criterios con anterioridad: los requisitos de la norma, los requisitos legales aplicables y sus propios procedimientos. Para el método de auditoría puede guiarse por la norma ISO 19011, que entrega directrices para auditar sistemas de gestión."
+                },
+                {
+                    "t": "p",
+                    "x": "Prepare una lista de verificación basada en los criterios definidos, pero no se limite a ella. Una lista sirve para no olvidar puntos, y no debe impedir seguir una pista interesante que aparezca durante el recorrido. Avise con anticipación a las áreas que serán auditadas, para que las personas necesarias estén disponibles."
+                }
+            ]
+        },
+        {
+            "h": "Quién debe auditar",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "El auditor no puede revisar su propio trabajo. Si el prevencionista es quien opera el sistema, necesita que otra persona audite esa parte. En una empresa pequeña, una solución es capacitar a personas de otras áreas o contratar un auditor externo."
+                },
+                {
+                    "t": "p",
+                    "x": "Si capacita auditores internos, prefiera un curso que incluya práctica de auditoría y no solo teoría. Un auditor se forma auditando, con la guía de alguien con experiencia que revise sus informes y le dé retroalimentación."
+                },
+                {
+                    "t": "img",
+                    "n": 1
+                }
+            ]
+        },
+        {
+            "h": "Qué mirar en terreno",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Los documentos muestran lo que se planificó. El terreno muestra lo que ocurre. Durante la auditoría:"
+                },
+                {
+                    "t": "ul",
+                    "items": [
+                        "Observe las tareas mientras se realizan.",
+                        "Converse con los trabajadores: pregunte cómo identifican peligros y qué harían ante una emergencia.",
+                        "Compare lo que dice la matriz de riesgos con lo que ve.",
+                        "Revise si los controles definidos existen y funcionan.",
+                        "Incluya a los contratistas que trabajan en sus instalaciones."
+                    ]
+                },
+                {
+                    "t": "p",
+                    "x": "Registre lo que ve con fecha, lugar y persona entrevistada, porque más tarde necesitará respaldar cada hallazgo con evidencia concreta."
+                }
+            ]
+        },
+        {
+            "h": "Cierre los hallazgos",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Redacte cada hallazgo con el requisito, la evidencia y el lugar. Evite frases vagas. Luego asigne responsable y fecha, y haga seguimiento hasta verificar que la corrección resultó eficaz."
+                },
+                {
+                    "t": "p",
+                    "x": "Entregue los resultados a la gerencia. Una auditoría que no llega a quien decide no mejora el sistema, y los trabajadores también deben conocer sus conclusiones."
+                },
+                {
+                    "t": "p",
+                    "x": "Distinga entre hallazgos graves y oportunidades de mejora. Un incumplimiento de un requisito legal o un control crítico que no funciona requiere acción inmediata. En cambio, una sugerencia de orden puede planificarse con más calma. Esa distinción ayuda a que la gerencia entienda qué debe atender primero."
+                }
+            ]
+        }
+    ],
+    "id": "auditoria-interna-sst-que-mirar-en-terreno",
+    "slug": "auditoria-interna-sst-que-mirar-en-terreno",
+    "descripcion": "La auditoría interna de seguridad y salud no es revisar carpetas. Vea cómo planificarla y qué observar en terreno según ISO 45001.",
+    "etiqueta": "ISO 45001",
+    "tema": "Auditoría interna de SST",
+    "cta_titulo": "¿Necesita apoyo con su auditoría interna?",
+    "cta_texto": "Podemos revisar su programa de auditoría o acompañar su primera auditoría, sin costo en la primera consulta.",
+    "linkedin": "Una auditoría interna de SST que solo revisa carpetas no detecta lo importante.\n\nLa ISO 45001 pide auditar con criterios definidos, auditores imparciales y seguimiento de los hallazgos. Lo clave está en terreno, hablando con los trabajadores.\n\nCómo prepararla:\n{URL}\n\n#AuditoríaInterna #ISO45001 #PrevenciónDeRiesgos #SST #Chile",
+    "facebook": "Prevencionistas: una auditoría interna se gana en terreno, no en la carpeta. Estas son las claves para prepararla y qué mirar al recorrer la planta: {URL}",
+    "imagenes": [
+        {
+            "id": 13804490,
+            "url_base": "https://images.pexels.com/photos/13804490/pexels-photo-13804490.jpeg",
+            "alt": "Dos mujeres en una bodega mirando una lista en una tablilla junto a estanterías metálicas.",
+            "fotografo": "Centre for Ageing Better",
+            "perfil": "https://www.pexels.com/@centre-for-ageing-better-55954677/"
+        },
+        {
+            "id": 8293680,
+            "url_base": "https://images.pexels.com/photos/8293680/pexels-photo-8293680.jpeg",
+            "alt": "Persona con chaleco reflectante amarillo sosteniendo un lápiz y una lista de chequeo en una tablilla.",
+            "fotografo": "RDNE Stock project",
+            "perfil": "https://www.pexels.com/@rdne/"
+        }
+    ],
+    "estado": "cola",
+    "creado": "2026-10-28T09:03:56-03:00",
+    "archivo_cola": "05-auditoria-interna-sst-que-mirar-en-terreno.json"
+}

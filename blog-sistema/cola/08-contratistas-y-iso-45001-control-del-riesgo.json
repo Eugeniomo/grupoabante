@@ -1,0 +1,135 @@
+{
+    "titulo": "Contratistas y ISO 45001: cómo controlar el riesgo de quienes trabajan para usted",
+    "intro": [
+        "Muchas empresas dependen de contratistas para mantención, construcción, aseo o transporte. Esos trabajadores comparten el lugar de trabajo y sus peligros, aunque no sean empleados propios.",
+        "La ISO 45001 se refiere a ellos en el apartado 8.1.4, sobre compras y contratistas. Revisamos qué hacer."
+    ],
+    "secciones": [
+        {
+            "h": "Por qué importa",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Los contratistas pueden exponerse a peligros que su empresa conoce y ellos no. Y sus actividades pueden crear peligros para sus propios trabajadores."
+                },
+                {
+                    "t": "p",
+                    "x": "Además, la normativa chilena sobre subcontratación establece responsabilidades para la empresa principal. El alcance depende de cada caso, así que conviene confirmarlo con un asesor legal."
+                },
+                {
+                    "t": "p",
+                    "x": "En una auditoría, los contratistas suelen ser una de las áreas donde se encuentran más hallazgos, porque la responsabilidad queda repartida entre varias personas y nadie la asume del todo. Definir con claridad quién hace qué es el primer paso para ordenar esta parte del sistema."
+                }
+            ]
+        },
+        {
+            "h": "Elija bien desde el inicio",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Antes de contratar, defina criterios de seguridad y salud para seleccionar a los contratistas. Por ejemplo:"
+                },
+                {
+                    "t": "ul",
+                    "items": [
+                        "Su sistema de gestión de seguridad y salud.",
+                        "Su historial de incidentes.",
+                        "La competencia de su personal para la tarea.",
+                        "La documentación y los seguros que correspondan."
+                    ]
+                },
+                {
+                    "t": "p",
+                    "x": "Incluya estos requisitos en el contrato o en las condiciones de compra, para que sean exigibles."
+                },
+                {
+                    "t": "p",
+                    "x": "Si trabaja con muchos contratistas, clasifíquelos según el riesgo de la tarea. A los de mayor riesgo, como trabajos en altura o con energía eléctrica, pida más antecedentes y controle con más frecuencia. A los de menor riesgo, un proceso más simple basta."
+                },
+                {
+                    "t": "img",
+                    "n": 1
+                }
+            ]
+        },
+        {
+            "h": "Coordine los peligros",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "La norma pide que la empresa coordine sus procesos de compras con los contratistas para identificar los peligros y controlar los riesgos que surgen de sus actividades. Eso incluye los riesgos que su empresa genera para ellos y los que ellos generan para su personal."
+                },
+                {
+                    "t": "p",
+                    "x": "En la práctica, una reunión previa al inicio del trabajo permite revisar la tarea, los peligros del lugar, las reglas internas y el plan de emergencia."
+                },
+                {
+                    "t": "p",
+                    "x": "La coordinación debe quedar escrita. Un acta simple con los peligros identificados, las medidas acordadas y los responsables de cada una es suficiente para muchas situaciones. Si las tareas de ambas empresas se superponen en el mismo lugar, revise también quién puede detener el trabajo cuando surja una condición insegura."
+                }
+            ]
+        },
+        {
+            "h": "Induzca y supervise",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Entregue una inducción al ingreso, con las reglas del lugar, las rutas de evacuación y a quién avisar ante un incidente. Deje registro de quién la recibió."
+                },
+                {
+                    "t": "p",
+                    "x": "Durante el trabajo, designe a una persona de su empresa como responsable de supervisar. Los recorridos periódicos le permiten detectar desvíos antes de que se transformen en incidentes."
+                },
+                {
+                    "t": "p",
+                    "x": "Cuando el contratista permanece por varios días, repita charlas breves de seguridad al inicio de cada jornada y registre la asistencia. Si se agregan tareas nuevas, vuelva a revisar los peligros antes de comenzarlas, porque cambian las condiciones."
+                }
+            ]
+        },
+        {
+            "h": "Evalúe al terminar",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Al cierre del trabajo, evalúe al contratista. Registre incidentes, cumplimiento de reglas y observaciones. Esa información servirá para decidir futuras contrataciones."
+                },
+                {
+                    "t": "p",
+                    "x": "También debe incluir a los contratistas en la investigación de incidentes y en los simulacros de emergencia que se realicen en sus instalaciones."
+                },
+                {
+                    "t": "p",
+                    "x": "Comparta los resultados con el contratista. Una evaluación que solo se archiva no ayuda a mejorar. En cambio, una conversación sobre lo que funcionó y lo que no puede fortalecer la relación y reducir los problemas en el siguiente trabajo."
+                }
+            ]
+        }
+    ],
+    "id": "contratistas-y-iso-45001-control-del-riesgo",
+    "slug": "contratistas-y-iso-45001-control-del-riesgo",
+    "descripcion": "Los contratistas también están bajo el sistema de seguridad. Vea qué pide ISO 45001 al contratar y cómo coordinar los riesgos.",
+    "etiqueta": "ISO 45001",
+    "tema": "Contratistas en ISO 45001",
+    "cta_titulo": "¿Cómo gestiona hoy a sus contratistas?",
+    "cta_texto": "Revisamos su proceso de selección, inducción y control, sin costo.",
+    "linkedin": "Un contratista que se accidenta en sus instalaciones es un problema de su sistema de gestión.\n\nLa ISO 45001 pide coordinar los peligros, definir criterios de selección y controlar el trabajo de terceros. Qué hacer en cada etapa:\n{URL}\n\n#ISO45001 #Contratistas #PrevenciónDeRiesgos #SST #Chile",
+    "facebook": "Prevencionistas: ¿cómo controlan a los contratistas que trabajan en sus instalaciones? Selección, inducción, coordinación y supervisión: revise los puntos clave: {URL}",
+    "imagenes": [
+        {
+            "id": 8961695,
+            "url_base": "https://images.pexels.com/photos/8961695/pexels-photo-8961695.jpeg",
+            "alt": "Trabajador con casco instalando cables eléctricos en una obra.",
+            "fotografo": "Mikael Blomkvist",
+            "perfil": "https://www.pexels.com/@mikael-blomkvist/"
+        },
+        {
+            "id": 8961130,
+            "url_base": "https://images.pexels.com/photos/8961130/pexels-photo-8961130.jpeg",
+            "alt": "Un hombre y una mujer con casco conversando frente a planos en una obra.",
+            "fotografo": "Mikael Blomkvist",
+            "perfil": "https://www.pexels.com/@mikael-blomkvist/"
+        }
+    ],
+    "estado": "cola",
+    "creado": "2026-10-28T09:03:56-03:00",
+    "archivo_cola": "08-contratistas-y-iso-45001-control-del-riesgo.json"
+}

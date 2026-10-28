@@ -1,0 +1,62 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;line-height:1.6;color:#333;overflow-x:hidden;background:#fff}
+img{max-width:100%;height:auto;display:block}
+header{background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.1);position:sticky;top:0;z-index:1000}
+nav{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;gap:1rem}
+.logo{height:50px}
+.nav-links{display:flex;list-style:none;gap:2rem}
+.nav-links a{text-decoration:none;color:#333;font-weight:500}
+.nav-links a:hover,.nav-links a.activo{color:#003087}
+.nav-links a.activo{border-bottom:2px solid #FF6B00}
+.wrap{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+.wrap-ancho{max-width:1100px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+.migas{font-size:.9rem;color:#666;margin-bottom:1.25rem}
+.migas a{color:#003087;text-decoration:none}
+.etiqueta{display:inline-block;font-size:.8rem;font-weight:600;color:#003087;background:#e8eef9;padding:.2rem .7rem;border-radius:3px;margin-bottom:.9rem}
+h1{font-size:2.2rem;line-height:1.25;color:#003087;margin-bottom:.8rem}
+.meta{color:#666;font-size:.95rem;margin-bottom:1.5rem}
+.portada{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:6px}
+figcaption{font-size:.8rem;color:#777;margin:.5rem 0 1.8rem}
+figcaption a{color:#777}
+.articulo h2{font-size:1.5rem;color:#003087;margin:2rem 0 .7rem;line-height:1.3}
+.articulo p{margin-bottom:1rem;font-size:1.05rem}
+.articulo ul{margin:0 0 1rem 1.3rem}
+.articulo li{margin-bottom:.4rem;font-size:1.05rem}
+.articulo figure{margin:1.8rem 0 0}
+.articulo figure img{border-radius:6px;width:100%;aspect-ratio:3/2;object-fit:cover}
+.cta{background:#f3f6fb;border-left:4px solid #FF6B00;padding:1.4rem 1.5rem;margin-top:2.5rem;border-radius:0 6px 6px 0}
+.cta h3{color:#003087;margin-bottom:.4rem}
+.cta p{margin-bottom:1rem;font-size:1rem}
+.btn{display:inline-block;background:#FF6B00;color:#fff;padding:.8rem 1.8rem;border-radius:5px;font-weight:bold;text-decoration:none}
+.lista{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.8rem;margin-top:2rem}
+.tarjeta{border:1px solid #e3e7ee;border-radius:8px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.tarjeta img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.tarjeta .cuerpo{padding:1.1rem 1.2rem 1.3rem;display:flex;flex-direction:column;flex:1}
+.tarjeta h2{font-size:1.15rem;line-height:1.35;margin-bottom:.5rem}
+.tarjeta h2 a{color:#003087;text-decoration:none}
+.tarjeta p{font-size:.95rem;margin-bottom:.8rem}
+.tarjeta .fecha{font-size:.85rem;color:#666;margin-top:auto}
+.intro{max-width:640px;color:#555;font-size:1.05rem}
+footer{background:#1a1a1a;color:#fff;padding:3rem 2rem}
+.footer-content{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:3rem}
+.footer-section h3{margin-bottom:1rem;color:#0052CC}
+.footer-section ul{list-style:none}
+.footer-section li{margin-bottom:.5rem}
+.footer-section a{color:#ccc;text-decoration:none}
+.footer-bottom{text-align:center;margin-top:2rem;padding-top:2rem;border-top:1px solid #333}
+@media(max-width:768px){
+nav{padding:.8rem 1rem;flex-wrap:wrap}.logo{height:40px}.nav-links{gap:1rem;font-size:.9rem;flex-wrap:wrap}
+h1{font-size:1.65rem}.wrap,.wrap-ancho{padding:1.5rem 1rem 3rem}.lista{grid-template-columns:1fr}
+.footer-content{grid-template-columns:1fr;gap:1.5rem}footer{padding:2rem 1rem}}
+.articulo details.seccion{border-top:1px solid #e3e7ee;padding:.2rem 0}
+.articulo details.seccion:last-of-type{border-bottom:1px solid #e3e7ee}
+.articulo summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.8rem 0}
+.articulo summary::-webkit-details-marker{display:none}
+.articulo summary h2{margin:0}
+.articulo summary::after{content:"";flex:none;width:.6rem;height:.6rem;border-right:2px solid #003087;border-bottom:2px solid #003087;transform:rotate(45deg);transition:transform .2s;margin-right:.3rem}
+.articulo details[open]>summary::after{transform:rotate(-135deg)}
+.articulo summary:focus-visible{outline:2px solid #FF6B00;outline-offset:2px}
+.articulo .cont{padding-bottom:.6rem}
+.articulo details.seccion+.cta{margin-top:2rem}
+@media(max-width:480px){.nav-links{flex-wrap:nowrap;gap:.7rem;font-size:.82rem;width:100%;justify-content:space-between}.nav-links a{white-space:nowrap}}
+@media(max-width:360px){.nav-links{font-size:.74rem;gap:.4rem}}

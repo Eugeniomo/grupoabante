@@ -1,0 +1,128 @@
+{
+    "titulo": "Matriz IPER: cómo construirla para que sirva en terreno",
+    "intro": [
+        "Muchas empresas tienen una matriz IPER bien presentada y poco usada. Se hizo para una auditoría, quedó en una carpeta y nadie la mira cuando cambia el trabajo.",
+        "La ISO 45001 pide identificar peligros y evaluar riesgos de forma continua. Eso se logra con una matriz que nace en terreno. Revisamos cómo construirla."
+    ],
+    "secciones": [
+        {
+            "h": "Parta por las tareas, no por las áreas",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Una matriz organizada por áreas suele quedarse en generalidades. Si lo hace por tarea, el análisis se vuelve concreto: qué se hace, con qué equipos, en qué lugar y quién lo hace."
+                },
+                {
+                    "t": "p",
+                    "x": "Incluya las tareas rutinarias y las que no lo son, como mantenciones, limpiezas o trabajos ocasionales. En ellas el riesgo suele pasar inadvertido."
+                },
+                {
+                    "t": "p",
+                    "x": "Un buen punto de partida es el listado de tareas que ya existe en la empresa, como las descripciones de cargo, los procedimientos de trabajo o las órdenes de mantención. Con él, el levantamiento se vuelve ordenado y es más difícil que se pierda una tarea importante. Después, el equipo solo debe completar qué peligros tiene cada una y qué controles existen hoy."
+                }
+            ]
+        },
+        {
+            "h": "Construya la matriz con quienes trabajan",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Nadie conoce mejor una tarea que quien la hace. Haga el levantamiento en el lugar de trabajo y conversando con los trabajadores. La ISO 45001 exige su participación en la identificación de peligros."
+                },
+                {
+                    "t": "p",
+                    "x": "Esto mejora la calidad de la matriz y también su aceptación. Un control que el trabajador entiende es un control que se respeta."
+                },
+                {
+                    "t": "img",
+                    "n": 1
+                }
+            ]
+        },
+        {
+            "h": "Qué debe considerar el análisis",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Además de los peligros físicos, la norma pide mirar otros factores."
+                },
+                {
+                    "t": "ul",
+                    "items": [
+                        "La organización del trabajo, como turnos, ritmos y cargas.",
+                        "Las situaciones de emergencia.",
+                        "A quienes están en el lugar: trabajadores propios, contratistas y visitas.",
+                        "Los incidentes y accidentes anteriores.",
+                        "Los cambios en procesos, equipos o personas."
+                    ]
+                },
+                {
+                    "t": "p",
+                    "x": "Estos factores amplían la mirada tradicional. Un puesto sin peligros físicos evidentes puede tener riesgos por carga de trabajo o por turnos extensos, y la matriz debe reflejarlos."
+                }
+            ]
+        },
+        {
+            "h": "Evalúe y controle con criterio",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Use una escala de evaluación simple que todos entiendan, normalmente combinando probabilidad y consecuencia. Una escala complicada se aplica mal y entrega resultados poco confiables."
+                },
+                {
+                    "t": "p",
+                    "x": "Para definir controles, siga la jerarquía de la norma: primero eliminar el peligro, luego sustituir, después aplicar controles de ingeniería y administrativos, y solo al final los elementos de protección personal. Si todos sus controles son capacitación y EPP, vale la pena revisar si hay opciones mejores."
+                },
+                {
+                    "t": "p",
+                    "x": "Registre también los controles que ya existen, aunque sean informales. Así la matriz muestra el riesgo actual y el riesgo que quedaría después de aplicar nuevas medidas. Esa diferencia ayuda a priorizar el presupuesto y a explicar a la gerencia por qué una inversión es necesaria."
+                }
+            ]
+        },
+        {
+            "h": "Manténgala viva",
+            "bloques": [
+                {
+                    "t": "p",
+                    "x": "Defina cuándo se actualiza la matriz: cuando cambia un proceso, llega un equipo nuevo, ocurre un incidente o se detecta un peligro no considerado. Designe responsables y registre cada revisión."
+                },
+                {
+                    "t": "p",
+                    "x": "Una matriz actualizada, conocida por los trabajadores y conectada con los controles en terreno es la mejor evidencia ante un auditor."
+                },
+                {
+                    "t": "p",
+                    "x": "Conviene además que la matriz se conecte con otras partes del sistema: los objetivos, la capacitación, los programas de inspección y la preparación para emergencias. Cuando un riesgo alto aparece en la matriz, debe aparecer también en alguna de esas partes. Si no ocurre, la matriz está aislada del resto del trabajo."
+                }
+            ]
+        }
+    ],
+    "id": "matriz-iper-que-sirva-en-terreno",
+    "slug": "matriz-iper-que-sirva-en-terreno",
+    "descripcion": "Una matriz IPER útil nace en terreno y con los trabajadores. Revise cómo construirla y cómo se relaciona con ISO 45001.",
+    "etiqueta": "ISO 45001",
+    "tema": "Matriz IPER",
+    "cta_titulo": "¿Su matriz IPER está lista para una auditoría?",
+    "cta_texto": "La revisamos junto a su equipo y le indicamos qué ajustar, sin costo.",
+    "linkedin": "Una matriz IPER que vive en un archivo y nadie usa no gestiona riesgos.\n\nTres claves para que sirva: partir por las tareas, construirla con quienes las hacen y actualizarla cuando cambia algo o ocurre un incidente.\n\nDetalle en el artículo:\n{URL}\n\n#IPER #ISO45001 #PrevenciónDeRiesgos #SST #Chile",
+    "facebook": "Prevencionistas: ¿su matriz IPER se usa en terreno o solo en la carpeta de la auditoría? Dejamos tres claves para construirla con los trabajadores y mantenerla viva: {URL}",
+    "imagenes": [
+        {
+            "id": 32845692,
+            "url_base": "https://images.pexels.com/photos/32845692/pexels-photo-32845692.jpeg",
+            "alt": "Trabajador con equipo de seguridad usando una tableta en una planta industrial luminosa.",
+            "fotografo": "Sergey Sergeev",
+            "perfil": "https://www.pexels.com/@sergey-sergeev-2153675005/"
+        },
+        {
+            "id": 8293678,
+            "url_base": "https://images.pexels.com/photos/8293678/pexels-photo-8293678.jpeg",
+            "alt": "Inspector con chaleco amarillo y casco examinando el interior de una construcción.",
+            "fotografo": "RDNE Stock project",
+            "perfil": "https://www.pexels.com/@rdne/"
+        }
+    ],
+    "estado": "cola",
+    "creado": "2026-10-28T09:03:56-03:00",
+    "archivo_cola": "02-matriz-iper-que-sirva-en-terreno.json"
+}

@@ -3,3 +3,7 @@ docs/historial/
 __pycache__/
 .playwright-mcp/
 .DS_Store
+blog-sistema/config.php
+blog-sistema/datos/*
+!blog-sistema/datos/.gitkeep
+*.bak-*
