@@ -18,7 +18,6 @@ const REPLY_BUZON = '';                           // buzón que lee correcciones
 const IMAP_HOST = 'mail.grupoabante.com'; const IMAP_USER = ''; const IMAP_PASS = '';
 const GEMINI_KEY = '';
 const PEXELS_KEY = '';                            // FALTA: crear key gratuita en pexels.com/api
-// Facebook: publicacion automatica en la pagina (Graph API). Token de pagina de larga duracion.
-const FB_AUTOPUBLICAR = false;
-const FB_PAGE_ID      = '';
-const FB_PAGE_TOKEN   = '';
+// Redes: el blog envia cada articulo publicado a un webhook de Make, que publica en Facebook y LinkedIn.
+const MAKE_AUTOPUBLICAR = false;
+const MAKE_WEBHOOK_URL  = '';                    // secreto: solo en el archivo real del servidor

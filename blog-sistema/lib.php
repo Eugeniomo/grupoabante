@@ -343,8 +343,8 @@ function texto_correo_revision(array $a, string $tokPub, string $tokDesc): strin
 function html_correo_publicado(array $a, string $fb = 'desactivado'): string {
     $url = BLOG_URL . '/' . $a['slug'] . '.html';
     $b = '<tr><td style="padding:28px 28px 8px;' . F . 'font-size:16px;line-height:24px;color:#333333;"><p style="margin:0 0 12px;">Estimada Marlene:</p><p style="margin:0 0 12px;">El artículo ya está publicado y visible en el sitio. Puede revisar cómo quedó con el botón de abajo.</p></td></tr>';
-    if ($fb === '') $b .= '<tr><td style="padding:0 28px 8px;' . F . 'font-size:14px;line-height:22px;color:#1877F2;font-weight:bold;">Publicado también en la página de Facebook de Grupo Abante.</td></tr>';
-    elseif ($fb !== 'desactivado') $b .= '<tr><td style="padding:0 28px 8px;' . F . 'font-size:14px;line-height:22px;color:#b00020;font-weight:bold;">No se pudo publicar en Facebook (' . h($fb) . '). Publíquelo a mano con el texto de más abajo.</td></tr>';
+    if ($fb === '') $b .= '<tr><td style="padding:0 28px 8px;' . F . 'font-size:14px;line-height:22px;color:#1877F2;font-weight:bold;">Enviado a Facebook y LinkedIn (vía Make).</td></tr>';
+    elseif ($fb !== 'desactivado') $b .= '<tr><td style="padding:0 28px 8px;' . F . 'font-size:14px;line-height:22px;color:#b00020;font-weight:bold;">No se pudo enviar a las redes (' . h($fb) . '). Publíquelo a mano con los textos de más abajo.</td></tr>';
     $b .= '<tr><td style="padding:8px 28px 8px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #dddddd;"><tr>';
     if (isset($a['imagenes'][0])) $b .= '<td width="150" valign="top" style="padding:0;"><img src="' . h(img_url($a['imagenes'][0], 300)) . '" alt="Portada del artículo" width="150" style="display:block;width:150px;height:auto;border:0;"></td>';
     $b .= '<td valign="top" style="padding:14px 16px;' . F . '"><div style="font-size:12px;color:#666666;">Publicado el ' . h(fecha_larga($a['fecha_pub'])) . '</div><div style="font-size:18px;line-height:24px;font-weight:bold;color:#003087;padding-top:4px;">' . h($a['titulo']) . '</div><div style="font-size:12px;color:#666666;padding-top:6px;">grupoabante.com/blog/' . h($a['slug']) . '.html</div></td></tr></table></td></tr>';
@@ -409,27 +409,28 @@ function atender_accion(string $accion): void {
         http_response_code(500); pagina_simple('No se pudo publicar', 'Ocurrió un error. Avise a soporte.');
     }
 }
-// Publica en la pagina de Facebook (Graph API). Nunca lanza: devuelve '' si ok, o el motivo del fallo.
-function publicar_facebook(array $a): string {
-    if (!defined('FB_AUTOPUBLICAR') || !FB_AUTOPUBLICAR) return 'desactivado';
-    if (!defined('FB_PAGE_ID') || !defined('FB_PAGE_TOKEN') || FB_PAGE_ID === '' || FB_PAGE_TOKEN === '') return 'sin configurar';
+// Envia el articulo al webhook de Make (publica en Facebook y LinkedIn). Nunca lanza: devuelve '' si ok, o el motivo del fallo.
+function publicar_redes(array $a): string {
+    if (!defined('MAKE_AUTOPUBLICAR') || !MAKE_AUTOPUBLICAR) return 'desactivado';
+    if (!defined('MAKE_WEBHOOK_URL') || MAKE_WEBHOOK_URL === '') return 'sin configurar';
     try {
         $url = BLOG_URL . '/' . $a['slug'] . '.html';
-        $msg = trim(preg_replace("/\n{3,}/", "\n\n", str_replace('{URL}', '', (string)$a['facebook'])));
-        $ch = curl_init('https://graph.facebook.com/v21.0/' . rawurlencode(FB_PAGE_ID) . '/feed');
+        $fb = trim(preg_replace("/\n{3,}/", "\n\n", str_replace('{URL}', '', (string)($a['facebook'] ?? ''))));
+        $payload = json_encode(['titulo' => $a['titulo'], 'url' => $url, 'texto_facebook' => $fb,
+            'texto_linkedin' => texto_red($a, 'linkedin'), 'imagen' => isset($a['imagenes'][0]) ? img_url($a['imagenes'][0], 1200) : ''], JSON_UNESCAPED_UNICODE);
+        $ch = curl_init(MAKE_WEBHOOK_URL);
         curl_setopt_array($ch, [CURLOPT_POST => true, CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 30,
-            CURLOPT_POSTFIELDS => ['message' => $msg, 'link' => $url, 'access_token' => FB_PAGE_TOKEN]]);
+            CURLOPT_HTTPHEADER => ['Content-Type: application/json'], CURLOPT_POSTFIELDS => $payload]);
         $r = curl_exec($ch); $code = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE); $err = curl_error($ch); curl_close($ch);
-        $j = json_decode((string)$r, true);
-        if ($code === 200 && !empty($j['id'])) { log_blog('facebook ok ' . $a['id'] . ' post=' . $j['id']); return ''; }
-        $m = 'HTTP ' . $code . ' ' . ($j['error']['message'] ?? $err ?: 'sin detalle');
-        log_blog('ERROR facebook ' . $a['id'] . ': ' . $m); return $m;
-    } catch (Throwable $e) { log_blog('ERROR facebook ' . $a['id'] . ': ' . $e->getMessage()); return $e->getMessage(); }
+        if ($code === 200) { log_blog('make ok ' . $a['id']); return ''; }
+        $m = 'HTTP ' . $code . ' ' . ($err ?: substr(trim((string)$r), 0, 80));
+        log_blog('ERROR make ' . $a['id'] . ': ' . $m); return $m;
+    } catch (Throwable $e) { log_blog('ERROR make ' . $a['id'] . ': ' . $e->getMessage()); return $e->getMessage(); }
 }
 function notificar_publicado(array $a): void {
-    $fb = publicar_facebook($a);
+    $fb = publicar_redes($a);
     try {
-        $aviso = ($fb === '' ? "Publicado tambien en la pagina de Facebook.\n\n" : ($fb === 'desactivado' ? '' : "AVISO: no se pudo publicar en Facebook (" . $fb . "). Publiquelo a mano con el texto de abajo.\n\n"));
+        $aviso = ($fb === '' ? "Enviado a Facebook y LinkedIn (via Make).\n\n" : ($fb === 'desactivado' ? '' : "AVISO: no se pudo enviar a las redes (" . $fb . "). Publiquelo a mano con los textos de abajo.\n\n"));
         enviar_correo(destinatario_revision(), 'Publicado: ' . $a['titulo'], html_correo_publicado($a, $fb),
             $aviso . "El artículo ya está publicado: " . BLOG_URL . '/' . $a['slug'] . ".html\n\nLINKEDIN:\n" . texto_red($a, 'linkedin') . "\n\nFACEBOOK:\n" . texto_red($a, 'facebook'));
     } catch (Throwable $e) { log_blog('ERROR correo publicado: ' . $e->getMessage()); }
